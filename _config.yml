@@ -58,8 +58,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    # 是否开启Gitalk评论
-  clientID: 4d1aad8c0098122400bc                            #生成的clientID
-  clientSecret: b0199439a6571797e0a04885f695bb3a80662c80    #生成的clientSecret
+  clientID: 858139838455d9bec55a                            #生成的clientID
+  clientSecret: f5f74ef7878dc140958188345e8a2cbb8e7dfaa2    #生成的clientSecret
   repo: hssrgov.github.io    #仓库名称
   owner: hssrgov    # github用户名
   admin: hssrgov
