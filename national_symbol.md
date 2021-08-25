@@ -31,6 +31,7 @@ Haer Sovet Sotsialism Respublik ufekkeflag (2021 lev 9 vlota 1 dlota-) premzulʔ
 哈儿苏维埃社会主义共和国国歌（2020年11月1日——）：***《国际歌》***。  
 Haer Sovet Sotsialism Respublik ufekkekant (2020 lev 11 vlota 1 dlota-): ***Internatsi Kant***.
 <br/><br/><br/>
+
 ---------------------------------------  
 # 已废止的国家象征 Fuk Ufekke Yevarovʔ
 
