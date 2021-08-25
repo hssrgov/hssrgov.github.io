@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      哈儿苏维埃社会主义共和国国家象征
-subtitle:   Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ
+title:      国家象征 Ufekke Yevarovʔ
+subtitle:   哈儿苏维埃社会主义共和国国家象征 Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ
 date:       2021-8-26
 author:     Haer Sovet Sotsialism Respublik Voe Ak Sovet bev Govera
 header-img: img/home-bg-he.png
