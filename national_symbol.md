@@ -13,7 +13,7 @@ tags:
 ***任何情况下使用哈儿苏维埃社会主义共和国国家象征时必须遵守：不得以任何方式侮辱、毁坏哈儿苏维埃社会主义共和国国家象征。任何时刻展示哈儿苏维埃社会主义共和国国家象征时必须按照哈儿实验室给出的标准文件为准。***
 
 
-***Beś uya Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ klota stag vipoleni: Neruz ŭya beś uayk misuz ore nesubten Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ. Beś klota udsafoz Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ klota stag laŭ Haer Labotiy nedekvedarov d shtandart tekst vedashtandaʔ.***
+***Beś ya Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ klota stag vipoleni: Neruz ŭya beś uayk misuz ore nesubten Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ. Beś klota udsafoz Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ klota stag laŭ Haer Labotiy nedekvedarov d shtandart tekst vedashtandaʔ.***
 
 ---------------------------------------  
 # 现行国家象征 Lis Ufekke Yevarovʔ
