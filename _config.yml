@@ -89,10 +89,10 @@ service-worker: true
 friends: [
     {
         title: "Haer Labotiy",
-        href: "http://openg-qkmb.github.io"
+        href: "https://openg-qkmb.github.io"
     },
     {
         title: "Mr.Haer",
-        href: "http://mrhaer.github.io"
+        href: "https://mrhaer.github.io"
     }
 ]
