@@ -2,7 +2,7 @@
 title:      国家象征 - Ufekke Yevarovʔ
 layout:     page
 description: "哈儿苏维埃社会主义共和国国家象征 Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ"
-header-img: "img/home-bg-he.jpg"
+header-img: "img/home-bg-o.jpg"
 ---
 
 ***<font color="#FF0000">任何情况下使用哈儿苏维埃社会主义共和国国家象征时必须遵守：不得以任何方式侮辱、毁坏哈儿苏维埃社会主义共和国国家象征。任何时刻展示哈儿苏维埃社会主义共和国国家象征时必须按照哈儿实验室给出的标准文件为准。</font>***
