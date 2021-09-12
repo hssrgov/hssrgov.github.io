@@ -24,12 +24,13 @@ Haer Sovet Sotsialism Respublik ukekkeblazon (2021 lev 9 vlota 1 dlota-), v Haer
 [矢量图下载/vektor bild nagruzova](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/png shtandart d bild nagruzova](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-Emblem.png)
 <br/><br/><br/>
 * 哈儿苏维埃社会主义共和国国歌（2020年11月1日——）：***《国际歌》***。  
-Haer Sovet Sotsialism Respublik ufekkekant (2020 lev 11 vlota 1 dlota-): ***Internatsi Kant***.
+Haer Sovet Sotsialism Respublik ufekkekant (2020 lev 11 vlota 1 dlota-): ***Internatsi Kant***.  
+[下载/nagruzova](https://openg-qkmb.github.io/Internatsi_Kant.mp3)
 <br/><br/><br/>
 
 ---------------------------------------  
 # 已废止的国家象征 Fuk Ufekke Yevarovʔ
- 
+
 * <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR-First.png" alt="Haer Sovet Sotsialism Respublik fuk ufekkeflag" width="75%">  
 前国旗（2020年11月1日——2021年8月31日）长宽比为2:1，旗面为纯红色。红色为**#CC0000**。  
 Fuk ufekkeflag (2020 lev 11 vlota 1 dlota-2021 lev 8 vlota 1 dlota) premzulʔ veda 2:1 (sep ulʔ on), flag veda alakaʔ sekhi. Sekhi veda **#CC0000**.  
