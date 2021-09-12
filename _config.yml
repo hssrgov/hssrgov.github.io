@@ -88,11 +88,15 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Haer Labotiy",
+        title: "Haer Labotiy Fuk Trekvdog Vebat (Kitay Langu: 哈儿实验室前官网)",
         href: "https://openg-qkmb.github.io"
     },
     {
-        title: "Mr.Haer",
+        title: "Haer Labotiy Foreton (Kitay Langu: 哈儿实验室分部)",
         href: "https://mrhaer.github.io"
+    },
+    {
+        title: "Spedfrek Bin Botsan Trekvdog Vebat (Kitay Langu: 伪证大典官网)",
+        href: "https://weizhengcom.github.io/"
     }
 ]
