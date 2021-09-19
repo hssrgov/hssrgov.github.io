@@ -1,6 +1,6 @@
 # Site settings | 网站设置
 title: Haer Labotiy bev HSSR Govera
-SEOTitle: HSSR Govera | Haer Labotiy
+SEOTitle: 哈儿实验室和哈儿国政府 - Haer Labotiy bev Haer Ufekke Govera
 header-img: img/home-bg-he.png
 email: radiumvs@foxmail.com
 description: "Tet veebat veda Haer Sovet Sotsialism Respublik Govera mu ihf d uayk."
@@ -80,7 +80,7 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#000000"
+chrome-tab-theme-color: "#CC0000"
 service-worker: true
 
 
