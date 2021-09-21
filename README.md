@@ -3,14 +3,8 @@ HSSRGOV
 
 **根本性改动次数**：**4**
 
-![Haer Sovet Sotsialism Respublik ufekkeflag](https://openg-qkmb.github.io/haerssr/Haer%20SSR.png)
+这是哈儿实验室和哈儿苏维埃社会主义共和国政府的官网。  
+Tet veda Haer Labotiy bev Haer Sovet  Sotsialism Respublik Govera d trekvdog vebat.  
+Тет веда Хаер Лаботиĵ бев Хаер Совет Сотсиалисм Республик Говера д треквдог вебат.
 
-哈儿苏维埃社会主义共和国国旗（2021年9月1日——）
-
-Haer Sovet Sotsialism Respublik ufekkeflag (2021 lev 9 vlota 1 dlota-)
-
-![Haer Sovet Sotsialism Respublik ukekkeblazon](https://openg-qkmb.github.io/haerssr/Haer%20SSR-Emblem.png)
-
-哈儿苏维埃社会主义共和国国徽（2021年9月1日——）
-
-Haer Sovet Sotsialism Respublik ukekkeblazon (2021 lev 9 vlota 1 dlota-)
+[关于我们 Abet yayi Абет ĵаĵи](https://hssrgov.github.io/about/)
