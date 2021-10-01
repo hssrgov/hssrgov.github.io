@@ -4,7 +4,7 @@ SEOTitle: 哈儿实验室
 header-img: img/home-bg-he.png
 email: radiumvs@foxmail.com
 description: "Tet veebat veda Haer Sovet Sotsialism Respublik Govera mu ihf d uayk."
-keyword: "Haer, Haer Labotiy, Haer SSR, HSSR, HSSR Govera, haer, OpenG-qkmb"
+keyword: "Haer, Haer Labotiy, Haer SSR, HSSR, HSSR Govera, haer, OpenG-qkmb, 哈儿, 哈儿实验室, 哈儿国, 哈儿苏维埃社会主义共和国"
 url: "http://hssrgov.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/hssrgov/hssrgov.github.io" #code repository | 代码仓库
@@ -30,7 +30,7 @@ github_username: hssrgov
 permalink: pretty
 paginate: 10
 # 转换时排除某些文件夹或文件。被排除的文件或文件夹的路径是相对于网站源码目录的，源码目录以外不受影响。
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","access"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 Regeneration: true    # 允许文件修改时自动重新生成网站。
