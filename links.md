@@ -5,6 +5,10 @@ description: "包含更多内容的链接集合页面 Yevarovavedarovagś Vihv E
 header-img: "img/home-bg-o.jpg"
 ---
 
+**<span style="color: #CC0000;">（对于本网站的所有页面）如果出现了未看到更新的情况，请反复刷新（点击刷新按钮并完成加载，一般须要刷新20余次）以获取最新页面。</span>**
+
+---
+
 ### 哈儿实验室&nbsp;&nbsp;Haer Labotiy&nbsp;&nbsp;Хаер Лаботиĵ
 * [关于哈儿实验室（中文）&nbsp;&nbsp;Abet Haer Labotiy (Kitay Langu)&nbsp;&nbsp;Абет Хаер Лаботиĵ (Китаĵ Лангу)](https://hssrgov.github.io/about/)
 * [哈儿实验室危险哈儿数据库&nbsp;&nbsp;Haer Lab Uzasni Haer Datv&nbsp;&nbsp;Хаер Лаб Узасни Хаер Датв](https://hssrgov.github.io/access/)
