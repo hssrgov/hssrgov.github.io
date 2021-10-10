@@ -10,6 +10,9 @@ header-img: "img/home-bg-o.jpg"
 
 ***<font color="#FF0000">Beś ŭya Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ klota stag vipoleni: Neruz ŭya beś uayk misuz ore nesubten Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ. Beś klota udsafoz Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ klota stag laŭ Haer Labotiy nedekvedarov d shtandart tekst vedashtandaʔ.</font>***
 
+
+***<font color="#FF0000">Беć ŷĵа Хаер Совет Сотсиалисм Республик Уфекке Ĵеваровʡ клота стаг виполени: Неруз ŷĵа беć уаĵк мисуз оре несубтен Хаер Совет Сотсиалисм Республик Уфекке Ĵеваровʡ. Беć клота удсафоз Хаер Совет Сотсиалисм Республик Уфекке Ĵеваровʡ клота стаг лаŷ Хаер Лаботиĵ недекведаров д схтандарт текст ведасхтандаʡ.</font>***
+
 ---------------------------------------  
 # 现行国家象征 Lis Ufekke Yevarovʔ
 
@@ -33,7 +36,7 @@ Haer Sovet Sotsialism Respublik ufekkekant (2021 lev 10 vlota 15 dlota-): ***Hae
 人民充满希冀地看向远方。  
 *[副歌]*  
 *无所不胜的英勇人民，*  
-*携带者劳动者的理想。*  
+*携带着劳动者的理想。*  
 *共产主义之光，*  
 *哈儿国前进的方向！*  
 <br/>  
@@ -46,7 +49,7 @@ Haer Sovet Sotsialism Respublik ufekkekant (2021 lev 10 vlota 15 dlota-): ***Hae
 勤劳的双手和充实的思想，  
 我们必将实现人民自古的向往。  
 红旗飘扬，终身的信仰，  
-以血肉书写人类的新篇章。
+以血肉书写人类的新篇章。  
 *[副歌]*  
 <br/><br/><br/>
 

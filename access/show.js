@@ -1,5 +1,5 @@
-﻿function getQ(name) {
-    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+﻿function getQ(hname) {
+    var reg = new RegExp("(^|&)" + hname + "=([^&]*)(&|$)", "i");
     var r = window.location.search.substr(1).match(reg);
     if (r != null) return unescape(r[2]);
     return null;
@@ -9,10 +9,10 @@ document.getElementById("sid").value=idd;
 const dg=["类人型哈儿","高智商哈儿","中智商哈儿","低智商哈儿","化学物质型哈儿","待销毁哈儿","已销毁哈儿","已出逃，无法鉴定"];
 const dgclr=["#00FF00","#AA00FF","#FFFF00","#00FFFF","#CC0000","#D06A0D","#6B6895","#2A5750"];
 const flagoj="\n<br>\n<strong style=\"color: #CC0000;\">下图是此哈儿的个人旗帜（由此哈儿亲自设计）：</strong>";
-var name,age,des,dgs,info,haerona;
+var hname,age,des,dgs,info,haerona;
 var mhn=27,minhn=1,rg=64;
 if (idd == "0") {
-    name="“萨尤兹”联盟";
+    hname="“萨尤兹”联盟";
 	age=-1;
 	des="ĈFLŜ最大的恐怖组织";
 	dgs=0;
@@ -20,70 +20,70 @@ if (idd == "0") {
 	haerona="G-6054-18K";
 	
 } else if (idd == "-1") {
-    name="夜车联盟";
+    hname="夜车联盟";
 	age=1;
 	des="ĈFLŜ的恐怖组织之一";
 	dgs=7;
 	info="夜车联盟是由Y先生发起的恐怖组织。这个组织成员个数不明确。[br]其目的是在晚上从事危险工作，然后到其它ĈFLŜ分配室。[br]ĈFLŜ规定禁止上述行为，但该组织的成员完全违反这些行为。[br]这个组织中的每个人都有自己的呼叫标志。晚上，总司令Y先生安排时间让成员们在晚上从事危险工作，[br]并安排时间去其它ĈFLŜ分配室，未经ĈFLŜ许可。[br]其成员在分配室门口通常会发出奇怪的声音信号，使分配室内的生物整夜处于活动状态。[br]有些成员来到分配室门口传达命令，并唤醒其他成员执行任务。这是ĈFLŜ最可怕的恐怖组织之一。"
 	haerona="V-1047-74A"
 } else if (idd == "1") {
-	name="提季提孩子";
+	hname="提季提孩子";
 	age=13;
 	des="最可怕的魔鬼之一";
 	dgs=2;
 	info="它是一个魔鬼，于2018年4月21日14:38:39变成哈儿。[br]它喜好撕咬任何生物身上凸起的部分，许多人都被咬掉必须的器官而死。[br]使其停止攻击的条件是其所攻击的对象已被咬成球形或其精力耗尽。[br]将其杀死后，其尸体会分裂出100余个副本并继续咬人，因此其目前无法被销毁。[br]截至2021年10月1日，共有约12万个提季提孩子活跃于哈儿实验室，至少有约8万个提季提孩子隐匿于世界各地。";
 	haerona="K-2510-51Y";//江柯毅
 } else if (idd == "2") {
-    name="哈儿之王";
+    hname="哈儿之王";
 	age=24;
 	des="目前智商最低的哈儿";
 	dgs=4;
 	info="它是目前智商最低的哈儿，应当被销毁。但它由于功能过于简单，将其销毁后发现其依然屹立于原地，并分裂出2个新的个体。[br]当在哈儿实验室外发现它时严禁移动，否则会遭到其攻击，可能会丧失生命。";
 	haerona="G-6054-18K";
 } else if (idd == "3") {
-    name="空洞孩子";
+    hname="空洞孩子";
 	age=14;
 	des="能够保护被提季提孩子攻击的不幸者";
 	dgs=2;
 	info="当一个人被提季提孩子攻击后，它可以帮助此人。但由于它的能力有限，在一个星期内只能帮助一个受伤较轻的人。[br]用它头上的空洞分泌的液体，与其另一种体液混合，并涂于伤员的伤口。伤员会很快痊愈，并恢复正常生活。[br]它无法分裂出新的个体，但也无法被人为消灭。";
 	haerona="K-2510-51Y";//江柯毅
 } else if (idd == "4") {
-    name="肾先生";
+    hname="肾先生";
 	age=31;
 	des="一个感情破裂的哈儿";
 	dgs=3;
 	info="它在感情破裂后于街上散步，偶然走进哈儿门。T-5991-54K同志把它的肾小球和静脉连接在一起，成为一个独立的血液循环系统，这导致了他的肾坏死。因为它进入哈儿门前遭受了最残酷的感情破裂，所以他常常毁掉大多数他认为是情侣的人的肾脏，被鉴定为危险哈儿。";
 	haerona="T-5991-54K";//韩宇乐
 } else if (idd == "5") {
-    name="CXK病毒";
+    hname="CXK病毒";
 	age=0;
 	des="存在于计算机中的哈儿";
 	dgs=6;
 	info="2020年7月22日上午ĈFLŜ的一次技术测试中，有人在其电脑内发现“点我解压CXK打篮球视频”的一个应用程序，[br]打开后电脑损坏，文件全部丢失。[br]受害者之一的<strong>B-7418-65V</strong>同志认为自己遭到了报复，[br]因为前一天晚上他画了“坤头套儿”以讽刺中国的一个流量明星CXK。";//B-7418-65V→刘昊维
 	haerona="OpenG-qkmb";
 } else if (idd == "6") {
-    name="橄榄先生";
+    hname="橄榄先生";
 	age=13;
 	des="研究其它哈儿的哈儿";
 	dgs=0;
 	info="在一次失败的实验中，橄榄先生发生了意外，但幸存了下来。他具有奉献精神，帮助我们研究其它哈儿，数次身负重伤。[br]其于2021年9月1日获得哈儿国建设模范勋章。[br]其哈儿实验室编制号码为：<strong>L-9218-73Z</strong>。";
 	haerona="L-9218-73Z";//刘泽宇
 } else if (idd == "7") {
-    name="小哈儿";
+    hname="小哈儿";
 	age=12;
 	des="提季提孩子的附属哈儿";
 	dgs=3;
 	info="它是在<a href=\"index.html?haer=1\" target=\"_blank\" style=\"color: #FFAAAA;\">提季提孩子</a>的房间担任提季提孩子情绪欲望发泄器多年的哈儿，身受重伤但喜好被提季提孩子撕咬，减少了很多次提季提孩子攻击人的事件。[br]其死亡后会分裂至少100个副本并继续等待提季提孩子的撕咬。[br]一般小哈儿的尸体会被提季提孩子咬成球形。";
 	haerona="S-2231-63D";
 } else if (idd == "8") {
-    name="炸（zhá）药";
+    hname="炸（zhá）药";
 	age=0;
 	des="以油炸方式制成的药品";
 	dgs=4;
 	info="这是以油炸方式制成的药品，在一次哈儿实验室举办的跳水比赛中，[br]一名参赛的哈儿服用过多，入水时炸（zhá）毁游泳场，因此而发现。[br]极度危险，且难以被销毁。";
 	haerona="O-4819-94S";//赵培辰
 } else if (idd == "9") {
-    name="已体检对象";
+    hname="已体检对象";
 	age=14;
 	des="体检合格后狂喜的哈儿";
 	dgs=5;
@@ -91,7 +91,7 @@ if (idd == "0") {
 	haerona="A-8139-21B";
 }
 else if (idd == "10") {
-    name="电话者";
+    hname="电话者";
 	age=9;
 	des="电话不停的哈儿";
 	dgs=1;
@@ -99,7 +99,7 @@ else if (idd == "10") {
 	haerona="F-9182-00L";//程子寒
 }
 else if (idd == "11") {
-    name="考生";
+    hname="考生";
 	age=13;
 	des="考试中的危险存在";
 	dgs=2;
@@ -107,7 +107,7 @@ else if (idd == "11") {
 	haerona="O-4819-94S";//赵培辰
 }
 else if (idd == "12") {
-    name="器官收集者";
+    hname="器官收集者";
 	age=14;
 	des="仅次于提季提孩子的恶魔";
 	dgs=5;
@@ -115,7 +115,7 @@ else if (idd == "12") {
 	haerona="B-7418-65V";//刘昊维
 }
 else if (idd == "13") {
-    name="-000";
+    hname="-000";
 	age=2;
 	des="反复自尽的哈儿";
 	dgs=5;
@@ -123,7 +123,7 @@ else if (idd == "13") {
 	haerona="K-2510-51Y";//江柯毅
 }
 else if (idd == "14") {
-    name="炸（zhá）药人";
+    hname="炸（zhá）药人";
 	age=20;
 	des="出生为炸（zhá）药的哈儿";
 	dgs=4;
@@ -131,7 +131,7 @@ else if (idd == "14") {
 	haerona="O-4819-94S";//赵培辰
 }
 else if (idd == "15") {
-    name="自行分解者";
+    hname="自行分解者";
 	age=2;
 	des="无法识别的对象";
 	dgs=5;
@@ -139,7 +139,7 @@ else if (idd == "15") {
 	haerona="K-2510-51Y";//江柯毅
 }
 else if (idd == "16") {
-    name="地理老师";
+    hname="地理老师";
 	age=29;
 	des="飘（piàp）行者";
 	dgs=0;
@@ -147,7 +147,7 @@ else if (idd == "16") {
 	haerona="O-4819-94S";//赵培辰
 }
 else if (idd == "17") {
-    name="已扭曲矩形对象";
+    hname="已扭曲矩形对象";
 	age=13;
 	des="目击者均被吓到猝死";
 	dgs=5;
@@ -155,7 +155,7 @@ else if (idd == "17") {
 	haerona="V-7851-08Z";//贺骥繇
 }
 else if (idd == "18") {
-    name="Song Liangsa（中文名无法识别）";
+    hname="Song Liangsa（中文名无法识别）";
 	age=13;
 	des="炼钢党领导人";
 	dgs=1;
@@ -163,7 +163,7 @@ else if (idd == "18") {
 	haerona="L-9218-73Z";//刘泽宇
 }
 else if (idd == "19") {
-    name="炼钢党";
+    hname="炼钢党";
 	age=-1;
 	des="哈儿实验室能源部的主力军";
 	dgs=3;
@@ -171,7 +171,7 @@ else if (idd == "19") {
 	haerona="L-9218-73Z";//刘泽宇
 }
 else if (idd == "20") {
-    name="Song Liangsa的老师";
+    hname="Song Liangsa的老师";
 	age=67;
 	des="哈儿实验室能源部的主力军";
 	dgs=2;
@@ -179,7 +179,7 @@ else if (idd == "20") {
 	haerona="L-9218-73Z";//刘泽宇
 }
 else if (idd == "21") {
-    name="吸毒者";
+    hname="吸毒者";
 	age=13;
 	des="炼钢党的受害者";
 	dgs=3;
@@ -187,7 +187,7 @@ else if (idd == "21") {
 	haerona="L-9218-73Z";//刘泽宇
 }
 else if (idd == "22") {
-    name="腐蚀者";
+    hname="腐蚀者";
 	age=13;
 	des="破坏力极强的哈儿";
 	dgs=4;
@@ -195,7 +195,7 @@ else if (idd == "22") {
 	haerona="V-7851-08Z";//贺骥繇
 }
 else if (idd == "23") {
-    name="对岸对象";
+    hname="对岸对象";
 	age=19;
 	des="危险的可自行移动物";
 	dgs=4;
@@ -203,7 +203,7 @@ else if (idd == "23") {
 	haerona="L-1917-11S";
 }
 else if (idd == "24") {
-    name="Ling Ji（中文名无法识别）";
+    hname="Ling Ji（中文名无法识别）";
 	age=13;
 	des="Song Liangsa最亲密的朋友";
 	dgs=2;
@@ -211,7 +211,7 @@ else if (idd == "24") {
 	haerona="L-9218-73Z";//刘泽宇
 }
 else if (idd == "25") {
-    name="舞者集团";
+    hname="舞者集团";
 	age=-1;
 	des="可怕的未知歌舞团";
 	dgs=0;
@@ -219,7 +219,7 @@ else if (idd == "25") {
 	haerona="E-5407-61B";
 }
 else if (idd == "26") {
-    name="吸烟者";
+    hname="吸烟者";
 	age=58;
 	des="意志力惊人";
 	dgs=0;
@@ -227,7 +227,7 @@ else if (idd == "26") {
 	haerona="L-9218-73Z";//刘泽宇
 }
 else if (idd == "27") {
-    name="革新派狭义牛马型反联通状方脑类伪弘毅主义哲学家";
+    hname="革新派狭义牛马型反联通状方脑类伪弘毅主义哲学家";
 	age=13;
 	des="无礼而自负的疯子";
 	dgs=5;
@@ -245,14 +245,14 @@ for(var i=0;i<rg;++i)
 	info=info.replace("[Uns]","<strong style=\"color: #FF0000;\">[禁止显示]</strong>");
 	info=info.replace("[br]","\n<br>\n");
 }
-document.getElementById("title").innerHTML = name+" - 哈儿实验室危险哈儿数据库 HLUHD";
-document.getElementById("t1").innerHTML =document.getElementById("t2").innerHTML =name;
+document.getElementById("title").innerHTML = hname+" - 哈儿实验室危险哈儿数据库 HLUHD";
+document.getElementById("t1").innerHTML =document.getElementById("t2").innerHTML =hname;
 document.getElementById("des").innerHTML =des;
 document.getElementById("img").alt = document.getElementById("id1").innerHTML =idd;
 document.getElementById("age").innerHTML =Number(age)+Number(1);
 document.getElementById("info").innerHTML =info;
 document.getElementById("img").src ="haer-img\\"+idd+".jpg";
-document.getElementById("img").title=name+" - "+idd;
+document.getElementById("img").title=hname+" - "+idd;
 document.getElementById("dg").innerHTML=dg[dgs];
 document.getElementById("dg").style="color: "+dgclr[dgs]+";";
 document.getElementById("haerona").innerHTML=haerona;
