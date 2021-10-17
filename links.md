@@ -5,7 +5,7 @@ description: "包含更多内容的链接集合页面 Yevarovavedarovagś Vihv E
 header-img: "img/home-bg-o.jpg"
 ---
 
-**<span style="color: #CC0000;">（对于本网站的所有页面）如果出现了未看到更新的情况，请反复刷新（点击刷新按钮并完成加载，一般须要刷新20余次）以获取最新页面。</span>**
+**<span style="color: #CC0000;">（对于本网站的所有页面）如果出现了未看到更新的情况，请反复刷新（点击刷新按钮并完成加载，一般须要刷新20余次）或删除浏览器缓存以获取最新页面。</span>**
 
 ---
 

@@ -10,7 +10,7 @@ const dg=["类人型哈儿","高智商哈儿","中智商哈儿","低智商哈儿
 const dgclr=["#00FF00","#AA00FF","#FFFF00","#00FFFF","#CC0000","#D06A0D","#6B6895","#2A5750"];
 const flagoj="\n<br>\n<strong style=\"color: #CC0000;\">下图是此哈儿的个人旗帜（由此哈儿亲自设计）：</strong>";
 var hname,age,des,dgs,info,haerona;
-var mhn=27,minhn=1,rg=64;
+var mhn=30,minhn=1,rg=64;
 if (idd == "0") {
     hname="“萨尤兹”联盟";
 	age=-1;
@@ -234,7 +234,31 @@ else if (idd == "27") {
 	info="这是一个令人无法忍受的哈儿，来自<a style=\"color: #AAAAFF;\" target=\"_blank\" href=\"index.html?haer=17\">已扭曲矩形对象</a>被销毁失败后产生的可以直视的副本，应当被销毁但生命力顽强，[br]我们切下了它的部分重要器官，但它第二天就自愈了，并且愈发地对哈儿实验室工作人员进行粗话侮辱。[br]虽然被<a href=\"index.html?haer=1\" target=\"_blank\" style=\"color: #FFAAAA;\">提季提孩子</a>撕咬了多于908次，但依然自愈，[br]素有“欠揍型不可繁殖或死亡的新型<a href=\"index.html?haer=7\" target=\"_blank\" style=\"color: #AAFFAA;\">小哈儿</a>”的美誉。[br]然而极其傲慢，粗鲁对待其它哈儿，并对哈儿实验室工作人员进行言语上的侮辱。[br]由于其过于令人无法忍受，且其无研究价值，又无法被销毁，经过相关同志的研究，[br]自2020年起<strong>其体重每年均会被计入《哈儿实验室年度环保报告》中全年垃圾总质量（单位为：吨/t）的数值</strong>。";
 	haerona="G-6054-18K";
 }
-else //注意第二年要更新哈儿的年龄！！！
+else if (idd == "28") {
+    hname="卫生间杀手";
+	age=13;
+	des="使得其周围卫生间充满尸体";
+	dgs=0;
+	info="这是一个可怕的哈儿，游走于ĈFLŜ的卫生间，[br]对正在使用男厕小便池的人的身体特定部位实施攻击。[br]这使得正在如厕的人当场猝死。[br]极其危险，已经使得至少6个厕所被永久废弃。[br]其实施上述行为可能是其进入哈儿门前在寻找厕所导致的。";
+	haerona="L-9218-73Z";//刘泽宇
+}
+else if (idd == "29") {
+    hname="弹琴者";
+	age=22;
+	des="力大无穷的哈儿";
+	dgs=3;
+	info="这是一个<a style=\"color: #AAFFAA;\" target=\"_blank\" href=\"index.html?haer=19\">炼钢党</a>的受害者，喜欢抱着任何其可以拿到的物品弹琴。[br]无论其抱着的东西是什么，都可以发出在炼钢党员听起来很“优雅”的音乐。[br]其兴奋时可以将大树连根拔起以开始弹奏，甚至可以将整个建筑物抬起，[br]其是目前少数几个能够举起<a style=\"color: #FFAAAA;\" target=\"_blank\" href=\"index.html?haer=18\">Song Liangsa</a>炼的钢的哈儿。";
+	haerona="L-9218-73Z";//刘泽宇
+}
+else if (idd == "30") {
+    hname="排球对象";
+	age=13;
+	des="举着排球的哈儿贩子";
+	dgs=0;
+	info="这是一个喜好排球的哈儿，时常命令他人参加其所谓的“排球比赛”，[br]拒绝者将被其拖走，目前无反抗成功者，因其力气极大。[br]其于2021年10月13日试图拐卖3个持枪的<a style=\"color: #FFAAAA;\" target=\"_blank\" href=\"index.html?haer=1\">提季提孩子</a>，这使得其失踪，3日后被发现于60公里外，身受重伤，严重失血[br]部分身体器官丢失，并被提季提孩子没收了排球。[br]其生命力顽强，因此很快恢复。[br]但其总是能通过不明手段获取排球并继续拐卖哈儿实验室工作人员和哈儿。[br]被其拐卖者均精神失常，恢复后完全无法回想被拐卖期间的遭遇。[br]此哈儿极度危险，已被强制与<strong style=\"color: #CC0000;\">10个曾持枪对人射击使93人丢失身体重要器官的提季提孩子</strong>共同关押。";
+	haerona="E-5407-61B";
+}
+else
 {
     document.getElementById("title").innerHTML = "无档案 - 哈儿实验室危险哈儿数据库 HLUHD";
     document.getElementById("main").innerHTML = "<h1 style=\" color: #FFAAAA;\">没有关于这个哈儿的档案</h1>";
@@ -249,7 +273,7 @@ document.getElementById("title").innerHTML = hname+" - 哈儿实验室危险哈�
 document.getElementById("t1").innerHTML =document.getElementById("t2").innerHTML =hname;
 document.getElementById("des").innerHTML =des;
 document.getElementById("img").alt = document.getElementById("id1").innerHTML =idd;
-document.getElementById("age").innerHTML =Number(age)+Number(1);
+document.getElementById("age").innerHTML =Number(age)+Number(1);//注意每年末要更新哈儿的年龄！！！
 document.getElementById("info").innerHTML =info;
 document.getElementById("img").src ="haer-img\\"+idd+".jpg";
 document.getElementById("img").title=hname+" - "+idd;
