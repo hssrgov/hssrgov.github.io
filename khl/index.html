@@ -1,10 +1,184 @@
 <!doctype html>
 <html>
 <head>
-<script src="khl.json"></script>
 <meta charset="utf-8">
 <link rel="shortcut icon" href="64.ico">
+<title>西里尔哈儿语转换页面</title>
 </head>
-<body>
+<body style="background: #000000;">
+	<div style="text-align: center; color: #FFFFFF; font-size: 20px">
+		<a href="https://hssrgov.github.io/" target="_blank"><img src="emblem.png" alt="哈儿实验室徽章" title="哈儿实验室徽章" width="5%"></a>
+		<h1>西里尔哈儿语与拉丁哈儿语互转页面</h1><hr>
+		<p>请输入拉丁哈儿语以便转换为西里尔哈儿语或西里尔哈儿语以便转换为拉丁哈儿语。</p>
+		<script language="javascript">
+			function haha(st,len)
+			{
+				for(var i=0;i<len;++i)
+				st=st.replace('\n',"<br>");
+				return st;
+			}
+			function tt(latin)
+			{
+				
+				latin=latin.replace("A","А");
+				latin=latin.replace("a","а");
+				latin=latin.replace("B","Б");
+				latin=latin.replace("b","б");
+				latin=latin.replace("D","Д");
+				latin=latin.replace("d","д");
+				latin=latin.replace("E","Е");
+				latin=latin.replace("e","е");
+				latin=latin.replace("F","Ф");
+				latin=latin.replace("f","ф");
+				latin=latin.replace("G","Г");
+				latin=latin.replace("g","г");
+				latin=latin.replace("H","Х");
+				latin=latin.replace("h","х");
+				latin=latin.replace("I","И");
+				latin=latin.replace("i","и");
+				latin=latin.replace("K","К");
+				latin=latin.replace("k","к");
+				latin=latin.replace("L","Л");
+				latin=latin.replace("l","л");
+				latin=latin.replace("M","М");
+				latin=latin.replace("m","м");
+				latin=latin.replace("N","Н");
+				latin=latin.replace("n","н");
+				latin=latin.replace("O","О");
+				latin=latin.replace("o","о");
+				latin=latin.replace("P","П");
+				latin=latin.replace("p","п");
+				latin=latin.replace("R","Р");
+				latin=latin.replace("r","р");
+				latin=latin.replace("S","С");
+				latin=latin.replace("s","с");
+				latin=latin.replace("T","Т");
+				latin=latin.replace("t","т");
+				latin=latin.replace("U","У");
+				latin=latin.replace("u","у");
+				latin=latin.replace("V","В");
+				latin=latin.replace("v","в");
+				latin=latin.replace("Y","Ĵ");
+				latin=latin.replace("y","ĵ");
+				latin=latin.replace("Z","З");
+				latin=latin.replace("z","з");
+				latin=latin.replace("Ŭ","Ŷ");
+				latin=latin.replace("ŭ","ŷ");
+				latin=latin.replace("Ś","Ć");
+				latin=latin.replace("ś","ć");
+				latin=latin.replace("ʔ","ʡ");
+				latin=latin.replace("C","К");
+				latin=latin.replace("c","к");
+				latin=latin.replace("J","Ĵ");
+				latin=latin.replace("j","ĵ");
+				latin=latin.replace("Q","К");
+				latin=latin.replace("q","к");
+				latin=latin.replace("W","Ŷ");
+				latin=latin.replace("w","ŷ");
+				latin=latin.replace("X","Кс");
+				latin=latin.replace("x","кс");
+				return latin;
+			}
+			function rr(latin)
+			{
+				latin=latin.replace("ккмб","qkmb");
+				latin=latin.replace("А","A");
+				latin=latin.replace("а","a");
+				latin=latin.replace("Б","B");
+				latin=latin.replace("б","b");
+				latin=latin.replace("Д","D");
+				latin=latin.replace("д","d");
+				latin=latin.replace("Е","E");
+				latin=latin.replace("е","e");
+				latin=latin.replace("Ф","F");
+				latin=latin.replace("ф","f");
+				latin=latin.replace("Г","G");
+				latin=latin.replace("г","g");
+				latin=latin.replace("Х","H");
+				latin=latin.replace("х","h");
+				latin=latin.replace("И","I");
+				latin=latin.replace("и","i");
+				latin=latin.replace("К","K");
+				latin=latin.replace("к","k");
+				latin=latin.replace("Л","L");
+				latin=latin.replace("л","l");
+				latin=latin.replace("М","M");
+				latin=latin.replace("м","m");
+				latin=latin.replace("Н","N");
+				latin=latin.replace("н","n");
+				latin=latin.replace("О","O");
+				latin=latin.replace("о","o");
+				latin=latin.replace("П","P");
+				latin=latin.replace("п","p");
+				latin=latin.replace("Р","R");
+				latin=latin.replace("р","r");
+				latin=latin.replace("С","S");
+				latin=latin.replace("с","s");
+				latin=latin.replace("Т","T");
+				latin=latin.replace("т","t");
+				latin=latin.replace("У","U");
+				latin=latin.replace("у","u");
+				latin=latin.replace("В","V");
+				latin=latin.replace("в","v");
+				latin=latin.replace("Ĵ","Y");
+				latin=latin.replace("ĵ","y");
+				latin=latin.replace("З","Z");
+				latin=latin.replace("з","z");
+				latin=latin.replace("Ŷ","Ŭ");
+				latin=latin.replace("ŷ","ŭ");
+				latin=latin.replace("Ć","Ś");
+				latin=latin.replace("ć","ś");
+				latin=latin.replace("ʡ","ʔ");
+				return latin;
+			}
+			function tr()
+			{
+				var latinn=document.getElementById("latin_h").value;
+				var ori=latinn;
+				var len=latinn.length,leno=ori.length;
+				document.getElementById("result").innerHTML="转换中，请不要进行任何操作……";
+				for(var i=0;i<len;++i)
+				{
+					latinn=tt(latinn);
+//					if((i/20)*20==i)
+//					{
+//						document.getElementById("result").innerHTML="转换中，请不要进行任何操作……  已完成"+(i+1)*100/len+"%……";
+//					}
+				}
+				len=latinn.length;
+				latinn=haha(latinn,len);
+				ori=haha(ori,leno);
+				document.getElementById("result").innerHTML=ori+"<br><br><br>"+latinn;
+			}
+			function rt()
+			{
+				var latinn=document.getElementById("latin_h").value;
+				var ori=latinn;
+				var len=latinn.length,leno=ori.length;
+				document.getElementById("result").innerHTML="转换中，请不要进行任何操作……";
+				for(var i=0;i<len;++i)
+				{
+					latinn=rr(latinn);
+//					if((i/20)*20==i)
+//					{
+//						document.getElementById("result").innerHTML="转换中，请不要进行任何操作……  已完成"+(i+1)*100/len+"%……";
+//					}
+				}
+				len=latinn.length;
+				latinn=haha(latinn,len);
+				ori=haha(ori,leno);
+				document.getElementById("result").innerHTML=ori+"<br><br><br>"+latinn;
+			}
+			function cl()
+			{
+				document.getElementById("latin_h").value="";
+				document.getElementById("result").innerHTML="转换后的哈儿语将会显示在这里……";
+			}
+		</script>
+		<textarea id="latin_h" placeholder="请输入" style="margin: 2px; width: 50%; height: 256px;"></textarea><br><button onClick="tr()">转换为西里尔哈儿语</button>&nbsp;&nbsp;<button onClick="rt()">转换为拉丁哈儿语</button>&nbsp;&nbsp;<button onClick="cl()">清除</button>
+		<p><div id="result" style="background: #AAAAAA;">转换后的哈儿语将会显示在这里……</div></p>
+		<hr>
+		<p>&copy;哈儿实验室 保留所有权利。</p>
+	</div>
 </body>
 </html>

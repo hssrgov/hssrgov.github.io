@@ -51,6 +51,53 @@ Haer Sovet Sotsialism Respublik ufekkekant (2021 lev 10 vlota 15 dlota-): ***Hae
 红旗飘扬，终身的信仰，  
 以血肉书写人类的新篇章。  
 *[副歌]*  
+<br/><br/>
+Kantŭore:  
+Spretfa d kant śaudmap t disohikanva ŭuk,  
+alok veda yay d slav sekhi flag.  
+Flove alok vlove, vkant alok stutu,  
+peta maleva z yevarov hohe.  
+*[Genumdukant]*  
+*Vnehrokti d brava peta,*  
+*eheyai yoreva d maleva.*  
+*Slav kommunism,*  
+*Haer Ufekee d lekkzorova!*  
+<br/>
+Slav dekvlora evira kven d mortina,  
+Lenin bev Stalin zagruzova maleva.  
+Tizhiti d razokha, Sinhaer d zurt,  
+Haer peta d vava t mir śaudmap.  
+*[Genumdukant]*  
+<br/>
+Tsia d dhora bev ŭoma d zurt,  
+yay stag ŭilav korska peta kven d maleva.  
+Sekhi flag śaudmap, unbrodeka verit,  
+ŭya bnastrov rozav nedekvetina d nevk ukg.  
+*[Genumdukant]*  
+<br/><br/><br/>
+Кантŷоре:  
+Спретфа д кант ćаудмап т дисохиканва ŷук,  
+алок веда ĵаĵ д слав секхи флаг.  
+Флове алок влове, вкант алок стуту,  
+пета малева з ĵеваров хохе.  
+*[Генумдукант]*  
+*Внехрокти д брава пета,*  
+*ехеĵаи ĵорева д малева.*  
+*Слав коммунисм,*  
+*Хаер Уфекее д леккзорова!*  
+<br/>
+Слав деквлора евира квен д мортина,  
+Ленин бев Сталин загрузова малева.  
+Тизхити д разокха,  
+Синхаер д зурт,  
+Хаер пета д вава т мир ćаудмап.  
+*[Генумдукант]*  
+<br/>
+Тсиа д дхора бев ŷома д зурт,  
+ĵаĵ стаг ŷилав корска пета квен д малева.  
+Секхи флаг ćаудмап, унбродека верит,  
+ŷĵа бнастров розав недекветина д невк укг.  
+*[Генумдукант]*  
 <br/><br/><br/>
 
 ---------------------------------------  
