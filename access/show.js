@@ -17,6 +17,11 @@ const flagoj="\n<br>\n<strong style=\"color: #CC0000;\">下图是此哈儿的个
 const hnl=["“萨尤兹”联盟","提季提孩子","哈儿之王","空洞孩子","肾先生","CXK病毒","橄榄先生","小哈儿","炸（zhá）药","已体检对象","电话者","考生","器官收集者","-000","炸（zhá）药人","自行分解者","地理老师","已扭曲矩形对象","怂亮仨","炼钢党","怂亮仨的老师","詹唱见","腐蚀者","对岸对象","拎几","舞者集团","吸烟者","革新派狭义牛马型反联通状方脑类伪弘毅主义哲学家","卫生间杀手","弹琴者","排球对象","车内异常行为对象","关门者","雄性圆周运动物体","春季积雨云对象","本源党","孙子","空中悬浮对象","守门员","门神","器官凸起对象","老者","捧金者","唾液喷洒对象","自我型小哈儿","可食用狂热哈儿","神仙","头部飘行对象","灯内人","剃刀对象","略感淤怂","炼钢树","东部杨树对象","关门者之母","均匀者","大哈儿","吉尔巴帝国","理发师","父亲","批评者","自我型大哈儿","文明者","阴间观光团","IOI帝国","废弃型人类","泳者","歌唱怒尼威"];//名称
 var hname,born,des,dgs,info,haerona,dgmhx,age,die;//hname：名称（临时存储用的变量），born：出生年份，des：概要，dgs：HIRG（临时存储用的变量），info：信息（描述），haerona：此哈儿的负责人，dgmhx：是否为哈儿团（1=是，临时存储用的变量）,age：年龄（临时存储用的变量），die：被销毁或死亡年份（临时存储用的变量，用以标注年龄）
 var mhn=66,minhn=1,rg=64,thisyear=2021;//mhn为最大编号，minhn为最小编号，直接影响到索引的表格行数和“当前可用编号”的数值；rg是指循环替换如[br]之类的简略符号的循环次数，64次足够多了；thisyear为当前年份（公历），用于计算哈儿的年龄，每年末要更新
+function about()//输出版权信息
+{
+  document.getElementById("about_index").innerHTML="哈儿实验室 &copy; 2018-"+thisyear+" 保留所有权利。<br>Хаер Лаботий &copy; 2018-"+thisyear+" Вебет алак поюмон.";
+  return;
+}
 function run()//HLUHD主页面运行函数
 {
 	var idd=getQ("haer");//idd：请求的哈儿编号
@@ -505,6 +510,7 @@ function run()//HLUHD主页面运行函数
 		document.getElementById("title").innerHTML="无档案 - 哈儿实验室危险哈儿数据库 HLUHD";//页面标题
 		document.getElementById("main").innerHTML="<h1 style=\" color: #FFAAAA;\">没有关于这个哈儿的档案</h1>";//页面内容（正文）
 		document.getElementById("haernum").innerHTML=minhn+"~"+mhn;//当前可用哈儿
+    about();//输出版权信息
 		return;
 	}
 	if(idd>-1)//单独处理负编号（负编号和0号都是隐藏的彩蛋），因为数组的下标不能小于0。
@@ -553,6 +559,7 @@ function run()//HLUHD主页面运行函数
 	document.getElementById("dg").style="color: "+dgclr[dgs]+";";//将颜色设置为HIRG对应的颜色
 	document.getElementById("haerona").innerHTML=haerona;//输出哈儿的负责人
 	document.getElementById("haernum").innerHTML="["+minhn+","+mhn+"]";//输出当前可用哈儿（这两个变量直接关系到索引的运行！！）
+  about();//输出版权信息
 	return;
 }
 function runtable()//HLUHD索引运行函数
@@ -565,6 +572,7 @@ function runtable()//HLUHD索引运行函数
 		rng+="<tr><td style=\"color: #AAFFAA;\">"+j+"</td><td><a style=\"color: #AAFFFF;\" href=\"index.html?haer="+j+"\" target=\"_blank\">"+hnl[j]+"</a></td><td style=\"color: #FFFFAA;\">"+dgsv+"</td></tr>\n";//添加每行的内容
 	}
 	document.getElementById("table").innerHTML=rng;//输出到页面
+  about();//输出版权信息
 	return;
 }
 function nextbutton(ifnext)//HLUHD主页面翻页按钮运行函数，若ifnext=1则翻到后一个哈儿，否则翻到前一个哈儿

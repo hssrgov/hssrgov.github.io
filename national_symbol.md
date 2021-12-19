@@ -1,7 +1,7 @@
 ---
-title:      国家象征 - Ufekke Yevarovʔ
+title:      国家象征 - Юфекке Эваровь
 layout:     page
-description: "哈儿苏维埃社会主义共和国国家象征 Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ"
+description: "哈儿苏维埃社会主义共和国国家象征 Хаер Совет Социалисм Респюблик Юфекке Эваровь"
 header-img: "img/home-bg-o.jpg"
 catalog: true
 ---
@@ -9,27 +9,24 @@ catalog: true
 ***<font color="#FF0000">任何情况下使用哈儿苏维埃社会主义共和国国家象征时必须遵守：不得以任何方式侮辱、毁坏哈儿苏维埃社会主义共和国国家象征。任何时刻展示哈儿苏维埃社会主义共和国国家象征时必须按照哈儿实验室给出的标准文件为准。</font>***
 
 
-***<font color="#FF0000">Beś ŭya Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ klota stag vipoleni: Neruz ŭya beś uayk misuz ore nesubten Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ. Beś klota udsafoz Haer Sovet Sotsialism Respublik Ufekke Yevarovʔ klota stag laŭ Haer Labotiy nedekvedarov d shtandart tekst vedashtandaʔ.</font>***
-
-
-***<font color="#FF0000">Беć ŷĵа Хаер Совет Сотсиалисм Республик Уфекке Ĵеваровʡ клота стаг виполени: Неруз ŷĵа беć уаĵк мисуз оре несубтен Хаер Совет Сотсиалисм Республик Уфекке Ĵеваровʡ. Беć клота удсафоз Хаер Совет Сотсиалисм Республик Уфекке Ĵеваровʡ клота стаг лаŷ Хаер Лаботиĵ недекведаров д схтандарт текст ведасхтандаʡ.</font>***
+***<font color="#FF0000">Бең уя Хаер Совет Социалисм Респюблик Юфекке Эваровь клота стаг виполени: Нерюз уя бең юайк мисюз оре несюбтен Хаер Совет Социалисм Респюблик Юфекке Эваровь. Бең клота юдсафоз Хаер Совет Социалисм Респюблик Юфекке Эваровь клота стаг лау Хаер Лаботий недекведаров д штандарт текст ведаштандаь.</font>***
 
 ---------------------------------------  
-# 现行国家象征 Lis Ufekke Yevarovʔ
+# 现行国家象征 Лис Юфекке Эваровь
 
-* <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR.png" alt="Haer Sovet Sotsialism Respublik ufekkeflag" width="75%">  
+* <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR.png" alt="Хаер Совет Социалисм Респюблик юфеккефлаг" width="75%">  
 哈儿苏维埃社会主义共和国国旗（2021年9月1日——）长宽比为2:1。  
-Haer Sovet Sotsialism Respublik ufekkeflag (2021 lev 9 vlota 1 dlota-) premzulʔ veda 2:1 (du ulʔ unu).  
-[矢量图下载/vektor bild nagruzova](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/png shtandart d bild nagruzova](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR.png)
+Хаер Совет Социалисм Респюблик юфеккефлаг (2021 лев 9 влота 1 длота-) премзюль веда 2:1 (дю юль юню).  
+[矢量图下载/вектор билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/PNG штандарт д билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR.png)
 <br/><br/><br/>
-* <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR-Emblem.png" alt="Haer Sovet Sotsialism Respublik ukekkeblazon" width="75%">  
+* <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR-Emblem.png" alt="Хаер Совет Социалисм Респюблик юфеккеблазон" width="75%">  
 哈儿苏维埃社会主义共和国国徽（2021年9月1日——），由哈儿实验室06分部哈儿艺术素养培养中心设计。  
-Haer Sovet Sotsialism Respublik ukekkeblazon (2021 lev 9 vlota 1 dlota-), v Haer Labotiy 06-genum foreton haer prozveś legopoʔ razokharovaniye suk yefidrov.  
-[矢量图下载/vektor bild nagruzova](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/png shtandart d bild nagruzova](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-Emblem.png)
+Хаер Совет Социалисм Респюблик юфеккеблазон (2021 лев 9 влота 1 длота-), в Хаер Лаботий 06-генюм форетон хаер прозвең легопоь разоқарованиэ сюк эфидров.  
+[矢量图下载/вектор билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/PNG штандарт д билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-Emblem.png)
 <br/><br/><br/>
 * 哈儿苏维埃社会主义共和国国歌（2021年10月15日——）：***《哈儿苏维埃社会主义共和国国歌》***。  
-Haer Sovet Sotsialism Respublik ufekkekant (2021 lev 10 vlota 15 dlota-): ***Haer Sovet Sotsialism Respublik Ufekkekant***.  
-[下载/nagruzova](https://openg-qkmb.github.io/Haer_SSR.mp3)  
+Хаер Совет Социалисм Респюблик юфеккекант (2021 лев 10 влота 15 длота-): ***«Хаер Совет Социалисм Респюблик Юфеккекант»***.  
+[下载/нагрюзова](https://openg-qkmb.github.io/Haer_SSR.mp3)  
 歌词：  
 胜利的号角回荡在原野上，  
 各处都是我们那光荣的红旗。  
@@ -53,67 +50,43 @@ Haer Sovet Sotsialism Respublik ufekkekant (2021 lev 10 vlota 15 dlota-): ***Hae
 以血肉书写人类的新篇章。  
 *[副歌]*  
 <br/><br/>
-Kantŭore:  
-Spretfa d kant śaudmap t disohikanva ŭuk,  
-alok veda yay d slav sekhi flag.  
-Flove alok vlove, vkant alok stutu,  
-peta maleva z yevarov hohe.  
-*[Genumdukant]*  
-*Vnehrokti d brava peta,*  
-*eheyai yoreva d maleva.*  
-*Slav kommunism,*  
-*Haer Ufekee d lekkzorova!*  
-<br/>
-Slav dekvlora evira kven d mortina,  
-Lenin bev Stalin zagruzova maleva.  
-Tizhiti d razokha, Sinhaer d zurt,  
-Haer peta d vava t mir śaudmap.  
-*[Genumdukant]*  
-<br/>
-Tsia d dhora bev ŭoma d zurt,  
-yay stag ŭilav korska peta kven d maleva.  
-Sekhi flag śaudmap, unbrodeka verit,  
-ŭya bnastrov rozav nedekvetina d nevk ukg.  
-*[Genumdukant]*  
-<br/><br/><br/>
-Кантŷоре:  
-Спретфа д кант ćаудмап т дисохиканва ŷук,  
-алок веда ĵаĵ д слав секхи флаг.  
-Флове алок влове, вкант алок стуту,  
-пета малева з ĵеваров хохе.  
-*[Генумдукант]*  
+Кантуоре:  
+Спретфа д кант ңаюдмап т дисохиканва уюк,  
+алок веда яй д слав сеқи флаг.  
+Флове алок влове, вкант алок стютю,  
+пета малева з эваров хохе.  
+*[Генюмдюкант]*  
 *Внехрокти д брава пета,*  
-*ехеĵаи ĵорева д малева.*  
-*Слав коммунисм,*  
-*Хаер Уфекее д леккзорова!*  
-<br/>
+*ехеяи ёрева д малева.*  
+*Слав коммюнисм,*  
+*Хаер Юфекее д леккзорова!*  
+<br/>  
 Слав деквлора евира квен д мортина,  
-Ленин бев Сталин загрузова малева.  
-Тизхити д разокха,  
-Синхаер д зурт,  
-Хаер пета д вава т мир ćаудмап.  
-*[Генумдукант]*  
-<br/>
-Тсиа д дхора бев ŷома д зурт,  
-ĵаĵ стаг ŷилав корска пета квен д малева.  
-Секхи флаг ćаудмап, унбродека верит,  
-ŷĵа бнастров розав недекветина д невк укг.  
-*[Генумдукант]*  
+Ленин бев Сталин загрюзова малева.  
+Тижити д разоқа, Синхаер д зюрт,  
+Хаер пета д вава т мир ңаюдмап.  
+*[Генюмдюкант]*  
+<br/>  
+Циа д дхора бев уома д зюрт,  
+яй стаг уилав корска пета квен д малева.  
+Сеқи флаг ңаюдмап, юнбродека верит,  
+уя бнастров розав недекветина д невк юкг.  
+*[Генюмдюкант]*  
 <br/><br/><br/>
 
 ---------------------------------------  
-# 已废止的国家象征 Fuk Ufekke Yevarovʔ
+# 已废止的国家象征 Фюк Юфекке Эваровь
 
-* <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR-First.png" alt="Haer Sovet Sotsialism Respublik fuk ufekkeflag" width="75%">  
+* <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR-First.png" alt="Хаер Совет Социалисм Респюблик фюк юфеккефлаг" width="75%">  
 前国旗（2020年11月1日——2021年8月31日）长宽比为2:1，旗面为纯红色。红色为**#CC0000**。  
-Fuk ufekkeflag (2020 lev 11 vlota 1 dlota-2021 lev 8 vlota 1 dlota) premzulʔ veda 2:1 (du ulʔ unu), flag veda alakaʔ sekhi. Sekhi veda **#CC0000**.  
-[矢量图下载/vektor bild nagruzova](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-First.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/png shtandart d bild nagruzova](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-First.png)
+Фюк юфеккефлаг (2020 лев 11 влота 1 длота-2021 лев 8 влота 1 длота) премзюль веда 2:1 (дю юль юню), флаг веда алакаь сеқи. Сеқи веда **#CC0000**.  
+[矢量图下载/вектор билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-First.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/PNG штандарт д билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-First.png)
 <br/><br/><br/>
-* <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR-First-Emblem.png" alt="Haer Sovet Sotsialism Respublik fuk ukekkeblazon" width="75%">  
+* <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR-First-Emblem.png" alt="Хаер Совет Социалисм Респюблик фюк юфеккеблазон" width="75%">  
 前国徽（2020年11月1日——2021年8月31日）为红色正五角星。红色为**#CC0000**。  
-Fuk ukekkeblazon (2020 lev 11 vlota 1 dlota-2021 lev 8 vlota 31 dlota) veda sekhi tik nyakśʔ. Sekhi veda **#CC0000**.  
-[矢量图下载/vektor bild nagruzova](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-First-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/png shtandart d bild nagruzova](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-First-Emblem.png)
+Фюк юфеккеблазон (2020 лев 11 влота 1 длота-2021 лев 8 влота 31 длота) веда сеқи тик някъ. Сеқи веда **#CC0000**.  
+[矢量图下载/вектор билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-First-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/PNG штандарт д билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-First-Emblem.png)
 <br/><br/><br/>
 * 哈儿苏维埃社会主义共和国国歌（2020年11月1日——2021年10月14日）：***《国际歌》***。  
-Haer Sovet Sotsialism Respublik ufekkekant (2020 lev 11 vlota 1 dlota-2020 lev 11 vlota 14 dlota): ***Internatsi Kant***.  
-[下载/nagruzova](https://openg-qkmb.github.io/Internatsi_Kant.mp3)
+Хаер Совет Социалисм Респюблик юфеккекант (2020 лев 11 влота 1 длота-2020 лев 11 влота 14 длота): ***«Интернаци Кант»***.  
+[下载/нагрюзова](https://openg-qkmb.github.io/Internatsi_Kant.mp3)

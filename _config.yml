@@ -1,10 +1,10 @@
 # Site settings | 网站设置
-title: 哈儿实验室和哈儿国政府 Haer Labotiy bev HSSR Govera
+title: 哈儿实验室和哈儿国政府 Хаер Лаботий бев ХССР Говера
 SEOTitle: 哈儿实验室
 header-img: img/home-bg-he.png
 email: radiumvs@foxmail.com
-description: "Tet veebat veda Haer Sovet Sotsialism Respublik Govera mu ihf d uayk."
-keyword: "Haer, Haer Labotiy, Haer SSR, HSSR, HSSR Govera, haer, OpenG-qkmb, 哈儿, 哈儿实验室, 哈儿国, 哈儿苏维埃社会主义共和国"
+description: "Тет веебат веда Хаер Совет Социалисм Респюблик Говера мю ихф д юайк."
+keyword: "Haer, Haer Labotiy, Haer SSR, HSSR, HSSR Govera, haer, OpenG-qkmb, Хаер, Хаер Лаботий, Хаер ССР, ХССР, ХССР Говера, хаер, ОпенГ-ккмб, 哈儿, 哈儿实验室, 哈儿国, 哈儿苏维埃社会主义共和国"
 url: "https://hssrgov.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/hssrgov/hssrgov.github.io" #code repository | 代码仓库
@@ -88,11 +88,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Haer Labotiy Foreton (Kitay Langu: 哈儿实验室分部)",
+        title: "Хаер Лаботий 01 Форетон (Китай Щаяз: 哈儿实验室01分部)",
         href: "https://mrhaer.github.io"
     },
     {
-        title: "Spedfrek Bin Botsan Trekvdog Vebat (Kitay Langu: 伪证大典官网)",
+        title: "Спедфрек Бин Боцан Треквдог Вебат (Китай Щаяз: 伪证大典官网)",
         href: "https://weizhengcom.github.io/"
     }
 ]
