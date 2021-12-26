@@ -25,6 +25,8 @@ function about()//输出版权信息
 function run()//ХЛЮХД主页面运行函数
 {
 	var idd=getQ("haer");//idd：请求的哈儿编号
+	if(idd==null||idd==NaN)window.location.href="https://hssrgov.github.io/hluhd/index.html";
+	else window.location.href="https://hssrgov.github.io/hluhd/index.html?haer="+idd;
 	document.getElementById("sid").value=idd;//将编号填充至搜索框内
 	die=thisyear;//防止误操作使得年龄不正确
 	if(idd==0)//“单身联盟”
@@ -564,6 +566,7 @@ function run()//ХЛЮХД主页面运行函数
 }
 function runtable()//ХЛЮХД索引运行函数
 {
+	window.location.href="https://hssrgov.github.io/hluhd/list.html"
 	var rng="<tr><th>危险哈儿号码</th><th>危险哈儿名称</th><th><a style=\"color: #FFFFFF;\" href=\"https://hssrgov.github.io/about/#hirg\" target=\"_blank\">哈儿综合能力等级</a></th></tr>\n",dgsv;//rng：表格内容，初始化时只有这个表头；dgsv：HIRG名称（临时存储用的变量）
 	for(var j=minhn;j<=mhn;++j)//j相当于run()中的idd变量
 	{
