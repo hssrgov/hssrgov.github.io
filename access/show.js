@@ -22,7 +22,7 @@ function about()//输出版权信息
   document.getElementById("about_index").innerHTML="哈儿实验室 &copy; 2018-"+thisyear+" 保留所有权利。<br>Хаер Лаботий &copy; 2018-"+thisyear+" Вебет алак поюмон.";
   return;
 }
-function run()//HLUHD主页面运行函数
+function run()//ХЛЮХД主页面运行函数
 {
 	var idd=getQ("haer");//idd：请求的哈儿编号
 	document.getElementById("sid").value=idd;//将编号填充至搜索框内
@@ -507,7 +507,7 @@ function run()//HLUHD主页面运行函数
 	}
 	else//没有档案，输出没有档案的说明并停止运行
 	{
-		document.getElementById("title").innerHTML="无档案 - 哈儿实验室危险哈儿数据库 HLUHD";//页面标题
+		document.getElementById("title").innerHTML="无档案 - 哈儿实验室危险哈儿数据库 ХЛЮХД";//页面标题
 		document.getElementById("main").innerHTML="<h1 style=\" color: #FFAAAA;\">没有关于这个哈儿的档案</h1>";//页面内容（正文）
 		document.getElementById("haernum").innerHTML=minhn+"~"+mhn;//当前可用哈儿
     about();//输出版权信息
@@ -540,7 +540,7 @@ function run()//HLUHD主页面运行函数
 		info=info.replace("[lstrw]","<strong>");//[lstrw]=加粗字体开始
 		info=info.replace("[rstr]","</strong>");//[rstr]=（红色）加粗字体结束
 	}
-	document.getElementById("title").innerHTML=hname+" - 哈儿实验室危险哈儿数据库 HLUHD";
+	document.getElementById("title").innerHTML=hname+" - 哈儿实验室危险哈儿数据库 ХЛЮХД";
 	document.getElementById("t1").innerHTML=document.getElementById("t2").innerHTML=hname;
 	document.getElementById("des").innerHTML=des;
 	document.getElementById("img").alt=document.getElementById("id1").innerHTML=idd;
@@ -562,7 +562,7 @@ function run()//HLUHD主页面运行函数
   about();//输出版权信息
 	return;
 }
-function runtable()//HLUHD索引运行函数
+function runtable()//ХЛЮХД索引运行函数
 {
 	var rng="<tr><th>危险哈儿号码</th><th>危险哈儿名称</th><th><a style=\"color: #FFFFFF;\" href=\"https://hssrgov.github.io/about/#hirg\" target=\"_blank\">哈儿综合能力等级</a></th></tr>\n",dgsv;//rng：表格内容，初始化时只有这个表头；dgsv：HIRG名称（临时存储用的变量）
 	for(var j=minhn;j<=mhn;++j)//j相当于run()中的idd变量
@@ -575,7 +575,7 @@ function runtable()//HLUHD索引运行函数
   about();//输出版权信息
 	return;
 }
-function nextbutton(ifnext)//HLUHD主页面翻页按钮运行函数，若ifnext=1则翻到后一个哈儿，否则翻到前一个哈儿
+function nextbutton(ifnext)//ХЛЮХД主页面翻页按钮运行函数，若ifnext=1则翻到后一个哈儿，否则翻到前一个哈儿
 {
 	var idd=getQ("haer");//idd：请求的哈儿编号
 	if(ifnext==1)window.location.href="index.html?haer="+(Number(idd)+Number(1));//向后翻页
