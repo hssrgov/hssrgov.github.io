@@ -12,7 +12,7 @@ catalog: true
 
 ### 哈儿实验室&nbsp;&nbsp;Хаер Лаботий
 * [关于哈儿实验室（中文）&nbsp;&nbsp;Абет Хаер Лаботий (Китай Щаяз)](https://hssrgov.github.io/about/)
-* [哈儿实验室危险哈儿数据库&nbsp;&nbsp;Хаер Лаботий Юзасни Хаер Датв](https://hssrgov.github.io/access/)
+* [哈儿实验室危险哈儿数据库&nbsp;&nbsp;Хаер Лаботий Юзасни Хаер Датв](https://hssrgov.github.io/hluhd/)
 * [西里尔哈儿语转换页面&nbsp;&nbsp;Кирива Хаер Щаяз Осрана Вебат](https://hssrgov.github.io/khl/)
 
 ---
