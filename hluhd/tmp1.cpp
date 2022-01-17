@@ -1,3 +1,5 @@
+//This file won't be used any more.
+//See haerlib.xml
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>

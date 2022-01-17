@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <lib>
 	<filedata>
-		<mhn>66</mhn>
-		<minhn>1</minhn>
-		<thisyear>2022</thisyear>
-		<actualminhn>-1</actualminhn>
-		<rg>32</rg>
+		<mhn>66</mhn><!--最大哈儿编号-->
+		<minhn>1</minhn><!--最小哈儿编号-->
+		<thisyear>2022</thisyear><!--今年年份-->
+		<actualminhn>-1</actualminhn><!--实际最小哈儿编号-->
+		<rg>32</rg><!--循环替换如[br]之类的简略符号的循环次数-->
 	</filedata>
 	<haerdata>
 		<haer id="-1">
@@ -688,5 +688,15 @@
 			<die id="die_66">-1</die>
 			<info id="info_66">这是一个[la]19[lb]炼钢党[lc]的受害者的身体特定部位，擅长歌唱。[br] 激活它的最好办法是大吼一声：“百鸟乱鸣！”其会立即开始不停地歌唱。[br] 极其吵闹，而如果试图破坏它，则会听到刺耳的惨叫。[br] 其原主人将其发配边疆，于是巡边战士们不得不去耳科检查。[br] 唯一的销毁办法是将其仍入绞肉机，但这可能会导致全世界人双耳失聪。</info>
 		</haer>
+		<!--<haer id="idd">
+			<name id="name_idd">哈儿名称</name>
+			<born id="born_idd">哈儿出生年份</born>
+			<des id="des_idd">概要</des>
+			<dgs id="dgs_idd">ХИРГ值</dgs>
+			<haerona id="haerona_idd">负责人</haerona>
+			<dgmhx id="dgmhx_idd">哈儿性质，0=哈儿，1=哈儿团，2=哈儿簇</dgmhx>
+			<die id="die_idd">被销毁或死亡年份，如果ХИРГ=6/8/9则有效，否则die值默认设置为-1且不被使用</die>
+			<info id="info_idd">哈儿详细信息（HTML5，不支持其它一切例如Markdown、LaTeX的插件）。支持以下缩略：[Uns] “禁止显示”  [br] 换行  [lstr] 红色加粗字体开始  [lstrw] 加粗字体开始  [rstr] （红色）加粗字体结束  [flagoj] 哈儿旗帜标识  [la]idd[lb]name[lc] 哈儿链接  [las]link[lb]name[lc] 其它链接</info>
+		</haer>-->
 	</haerdata>
 </lib>
