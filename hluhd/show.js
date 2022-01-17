@@ -56,6 +56,14 @@ function run()//ХЛЮХД主页面运行函数
 		about();//输出版权信息
 		return;
 	}
+	if(idd==null)
+	{
+		document.getElementById("title").innerHTML="未选择 - 哈儿实验室危险哈儿数据库 ХЛЮХД";//页面标题
+		document.getElementById("main").innerHTML="<h1 style=\" color: #FFAAAA;\">请选择一个哈儿</h1>";//页面内容（正文）
+		document.getElementById("haernum").innerHTML=minhn+"~"+mhn;//当前可用哈儿
+		about();//输出版权信息
+		return;
+	}
 	hname=xmlDoc.getElementById("name_"+idd).childNodes[0].nodeValue;
 	born=Number(xmlDoc.getElementById("born_"+idd).childNodes[0].nodeValue);
 	des=xmlDoc.getElementById("des_"+idd).childNodes[0].nodeValue;
