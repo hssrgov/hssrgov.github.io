@@ -34,7 +34,7 @@
 			<des id="des_1">最可怕的魔鬼之一</des>
 			<dgs id="dgs_1">2</dgs>
 			<haerona id="haerona_1">K-2510-51Y</haerona>
-			<dgmhx id="dgmhx_1">0</dgmhx>
+			<dgmhx id="dgmhx_1">2</dgmhx>
 			<die id="die_1">-1</die>
 			<info id="info_1">它是哈儿实验室的第一个危险哈儿，于2018年4月21日变成哈儿，后分裂出许多副本。[br] 它喜好撕咬任何生物身上凸起的部分，许多人都被咬掉必须的器官而死。[br] 使其停止攻击的条件是其所攻击的对象已被咬成球形或其精力耗尽。[br] 将其杀死后，其尸体会分裂出100余个副本并继续咬人，因此其目前无法被销毁。[br] 截至2021年10月1日，共有约12万个提季提孩子活跃于哈儿实验室，至少有约8万个提季提孩子隐匿于世界各地。</info>
 		</haer>
@@ -46,7 +46,7 @@
 			<haerona id="haerona_2">G-6054-18K</haerona>
 			<dgmhx id="dgmhx_2">0</dgmhx>
 			<die id="die_2">-1</die>
-			<info id="info_2">它是目前智商最低的哈儿，应当被销毁。但它由于功能过于简单，将其销毁后发现其依然屹立于原地，并分裂出2个新的个体。[br] 当在哈儿实验室外发现它时严禁移动，否则会遭到其攻击，可能会丧失生命。</info>
+			<info id="info_2">它是目前智商最低的哈儿，应当被销毁。但它由于功能过于简单，将其销毁后发现其依然屹立于原地，并分裂出1个新的个体。[br] 当在哈儿实验室外发现它时严禁移动，否则会遭到其攻击，可能会丧失生命。</info>
 		</haer>
 		<haer id="3">
 			<name id="name_3">空洞孩子</name>
@@ -94,7 +94,7 @@
 			<des id="des_7">提季提孩子的附属哈儿</des>
 			<dgs id="dgs_7">3</dgs>
 			<haerona id="haerona_7">S-2231-63D</haerona>
-			<dgmhx id="dgmhx_7">0</dgmhx>
+			<dgmhx id="dgmhx_7">2</dgmhx>
 			<die id="die_7">-1</die>
 			<info id="info_7">它是在[la]1[lb]提季提孩子[lc]的房间担任提季提孩子情绪欲望发泄器多年的哈儿，[br] 身受重伤但喜好被提季提孩子撕咬，减少了很多次提季提孩子攻击人的事件。[br] 其死亡后会分裂至少100个副本并继续等待提季提孩子的撕咬。[br] 一般小哈儿的尸体会被提季提孩子咬成球形。</info>
 		</haer>
@@ -534,7 +534,7 @@
 			<des id="des_51">可怕的植物</des>
 			<dgs id="dgs_51">4</dgs>
 			<haerona id="haerona_51">L-9218-73Z</haerona>
-			<dgmhx id="dgmhx_51">0</dgmhx>
+			<dgmhx id="dgmhx_51">2</dgmhx>
 			<die id="die_51">-1</die>
 			<info id="info_51">这是一棵树，深受[la]19[lb]炼钢党[lc]的毒害。[br] 它时常持枪对自己的树干射击以炼钢，并要求路人为其装弹，[br] 如果路人拒绝就会被抽打，常常致人死亡。[br] 时常发电平移，常常冲进他人住处造成死亡事故，使得附近居民苦不堪言。[br] 其钢产量惊人，与2021年10月31日被炼钢党授予“炼钢机器”称号。</info>
 		</haer>
@@ -574,7 +574,7 @@
 			<des id="des_55">小哈儿的变种</des>
 			<dgs id="dgs_55">2</dgs>
 			<haerona id="haerona_55">Z-2744-27Y</haerona>
-			<dgmhx id="dgmhx_55">0</dgmhx>
+			<dgmhx id="dgmhx_55">2</dgmhx>
 			<die id="die_55">-1</die>
 			<info id="info_55">这是一个[la]7[lb]小哈儿[lc]的变种，其绝大多数性质与小哈儿无异。[br] 其与小哈儿的最大区别在于其身体特定器官极大，[br] 大约有20m长，需要10个[la]1[lb]提季提孩子[lc]撕咬一整天才能咬完。[br] 其极其喜好来自身体特定器官的刺痛，时常自残。[br] 其行为极其危险，严禁模仿！</info>
 		</haer>
@@ -684,7 +684,7 @@
 			<des id="des_66">歌声震耳而形象惊人</des>
 			<dgs id="dgs_66">4</dgs>
 			<haerona id="haerona_66">L-9218-73Z</haerona>
-			<dgmhx id="dgmhx_66">0</dgmhx>
+			<dgmhx id="dgmhx_66">2</dgmhx>
 			<die id="die_66">-1</die>
 			<info id="info_66">这是一个[la]19[lb]炼钢党[lc]的受害者的身体特定部位，擅长歌唱。[br] 激活它的最好办法是大吼一声：“百鸟乱鸣！”其会立即开始不停地歌唱。[br] 极其吵闹，而如果试图破坏它，则会听到刺耳的惨叫。[br] 其原主人将其发配边疆，于是巡边战士们不得不去耳科检查。[br] 唯一的销毁办法是将其仍入绞肉机，但这可能会导致全世界人双耳失聪。</info>
 		</haer>
