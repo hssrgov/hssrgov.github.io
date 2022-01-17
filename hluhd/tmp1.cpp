@@ -53,21 +53,21 @@ int main()/*OpenG-qkmb*/
 			continue;
 		}
 		fout<<"<haer id=\""<<cnt<<"\">\n"
-		"<name>"<<tmp<<"</name>\n";
+		"<name id=\"name_"<<cnt<<"\">"<<tmp<<"</name>\n";
 		getline(fin,tmp);
-		fout<<"<born>"<<tmp<<"</born>\n";
+		fout<<"<born id=\"born_"<<cnt<<"\">"<<tmp<<"</born>\n";
 		getline(fin,tmp);
-		fout<<"<des>"<<tmp<<"</des>\n";
+		fout<<"<des id=\"des_"<<cnt<<"\">"<<tmp<<"</des>\n";
 		getline(fin,tmp);
-		fout<<"<dgs>"<<tmp<<"</dgs>\n";
+		fout<<"<dgs id=\"dgs_"<<cnt<<"\">"<<tmp<<"</dgs>\n";
 		getline(fin,tmp);
-		fout<<"<haerona>"<<tmp<<"</haerona>\n";
+		fout<<"<haerona id=\"haerona_"<<cnt<<"\">"<<tmp<<"</haerona>\n";
 		getline(fin,tmp);
-		fout<<"<dgmhx>"<<tmp<<"</dgmhx>\n";
+		fout<<"<dgmhx id=\"dgmhx_"<<cnt<<"\">"<<tmp<<"</dgmhx>\n";
 		getline(fin,tmp);
-		fout<<"<die>"<<tmp<<"</die>\n";
+		fout<<"<die id=\"die_"<<cnt<<"\">"<<tmp<<"</die>\n";
 		getline(fin,tmp);
-		fout<<"<info>\n";
+		fout<<"<info id=\"info_"<<cnt<<"\">\n";
 		while(tmp!="[info-end]")
 		{
 			fout<<tmp<<endl;
