@@ -52,7 +52,7 @@ function run()//ХЛЮХД主页面运行函数
 	{
 		document.getElementById("title").innerHTML="无档案 - 哈儿实验室危险哈儿数据库 ХЛЮХД";//页面标题
 		document.getElementById("main").innerHTML="<h1 style=\" color: #FFAAAA;\">没有关于这个哈儿的档案</h1>";//页面内容（正文）
-		document.getElementById("haernum").innerHTML=minhn+"~"+mhn;//当前可用哈儿
+		document.getElementById("haernum").innerHTML="["+minhn+","+mhn+"]";//当前可用哈儿
 		about();//输出版权信息
 		return;
 	}
@@ -60,7 +60,7 @@ function run()//ХЛЮХД主页面运行函数
 	{
 		document.getElementById("title").innerHTML="未选择 - 哈儿实验室危险哈儿数据库 ХЛЮХД";//页面标题
 		document.getElementById("main").innerHTML="<h1 style=\" color: #FFAAAA;\">请选择一个哈儿</h1>";//页面内容（正文）
-		document.getElementById("haernum").innerHTML=minhn+"~"+mhn;//当前可用哈儿
+		document.getElementById("haernum").innerHTML="["+minhn+","+mhn+"]";//当前可用哈儿
 		about();//输出版权信息
 		return;
 	}
