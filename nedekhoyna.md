@@ -8,4 +8,4 @@ header-img: "img/home-bg-o.jpg"
 # 哈儿苏维埃社会主义共和国宪法
 ## Хаер Совет Социалисм Респюблик Недеқойна
 
-<embed src="https://hssrgov.github.io/Konstintutsiya_HSSR.pdf" width="100%" height="1000px"></embed>
+<embed src="https://hssrgov.github.io/files/Konstintutsiya_HSSR.pdf" width="100%" height="1000px">
