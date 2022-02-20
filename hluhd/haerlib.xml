@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <lib>
 	<filedata>
-		<mhn>73</mhn><!--最大哈儿编号-->
+		<mhn>74</mhn><!--最大哈儿编号-->
 		<minhn>1</minhn><!--最小哈儿编号-->
 		<thisyear>2022</thisyear><!--今年年份-->
 		<actualminhn>-1</actualminhn><!--实际最小哈儿编号-->
@@ -757,6 +757,16 @@
 			<dgmhx id="dgmhx_73">1</dgmhx>
 			<die id="die_73">-1</die>
 			<info id="info_73">这是危险哈儿团[la]72[lb]玛雅帝国[lc]的国教，教皇为[lstrw]Тан Джинруй[rstr]。[br]此宗教宣称能使教徒通过一系列手段变成“战神”。[br]其变成“战神”的方法是：在ĈFLŜ的例行测试中采取任何可能的能获取到在测试中取得正面结果的措施，[br]如果此措施生效并产生了有利于参与采取措施的教徒的结果，[br]则参与采取措施并受益的教徒被称为“战神”，[br]其上述措施被称为“当‘战神’”。[br]虽然跟随此宗教能在ĈFLŜ中成为成功的生物，但我们不建议通过上述方式成为生物。</info>
+		</haer>
+		<haer id="74">
+			<name id="name_74">骨灰盒</name>
+			<born id="born_74">2007</born>
+			<des id="des_74">糟糕透顶的被迫害妄想症患者</des>
+			<dgs id="dgs_74">5</dgs>
+			<haerona id="haerona_74">F-9844-35H</haerona>
+			<dgmhx id="dgmhx_74">0</dgmhx>
+			<die id="die_74">-1</die>
+			<info id="info_74">这是一个被迫害妄想症患者，因病情过重而变为哈儿。[br]其无故监视并干涉哈儿实验室工作人员的生活，使得许多人员不得不拒绝继续为此哈儿服务。[br]此哈儿极其危险，认为[lstrw]OpenG-qkmb[rstr]同志是鬼魂般的恶魔，[br]教授并组织其它危险哈儿跟踪并监视[lstrw]OpenG-qkmb[rstr]同志。[br]我们认为这有可能是刺杀的前兆，因此决定销毁此哈儿。[br]在销毁的过程中，我们意识到它目前没有死亡或停止存在的功能，无法被销毁。[br]2022年2月18日，此哈儿在ĈFLŜ的走廊上使用一名不知情的[la]19[lb]炼钢党[lc]员跟踪[lstrw]A-8139-21B[rstr]同志后，[br]继续无故监听[lstrw]G-6054-18K[rstr]同志与[lstrw]F-9182-00L[rstr]同志之间的谈话，[br]使得谈话被迫转移至哈儿实验室无哈儿区内。[br]哈儿实验室06分部危险哈儿管制及实验区于2022年2月19日将其鉴定为危险哈儿并决定加入此列表。</info>
 		</haer>
 		<!--<haer id="idd">
 			<name id="name_idd">哈儿名称</name>
