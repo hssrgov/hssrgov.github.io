@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="..\khl\64.ico">
+<title>下载关于骨灰盒的信息</title>
+</head>
+<body style="background: #000000;">
+	<div style="text-align: center; color: #FFFFFF; font-size: 20px; font-family: 华文楷体;">
+		<a href="https://hssrgov.github.io/" target="_blank" style="color: #FFFFFF;">主页</a>
+		<h1>下载关于骨灰盒的信息</h1><hr>
+		<p>请设置参数。</p>
+		<script language="javascript">
+			function getQ(hname)
+			{
+				var reg=new RegExp("(^|&)"+hname+"=([^&]*)(&|$)","i");
+    			var r=window.location.search.substr(1).match(reg);
+				if(r!=null)
+				{
+					return unescape(r[2]);
+				}
+				return null;
+			}
+			const njet="N";
+			var ver=getQ("ver"),n=2,fn=njet;
+			const l=["20220226","20020227"],lf=["Urna-Chertovy_Sobaki-2022-02-26.pdf","Urna-Ubivat'_Suk-2022-02-27.pdf"];
+			if(ver=="latest"||ver=="newst")
+				fn=lf[n-1];
+			else
+			{
+				for(let i=0;i<n;++i)
+				{
+					if(l[i]==ver)
+					{
+						fn=lf[i];
+						break;
+					}
+				}
+			}
+			if(fn!=njet)
+			{
+				window.location.href=fn;
+			}
+		</script>
+		<hr>
+		<p>&copy;哈儿实验室 保留所有权利。</p>
+	</div>
+</body>
+</html>
