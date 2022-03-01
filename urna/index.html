@@ -8,8 +8,12 @@
 <body style="background: #000000;">
 	<div style="text-align: center; color: #FFFFFF; font-size: 20px; font-family: 华文楷体;">
 		<a href="https://hssrgov.github.io/" target="_blank" style="color: #FFFFFF;">主页</a>
-		<h1>下载关于骨灰盒的信息</h1><hr>
-		<p>请设置参数。</p>
+		<h1>下载关于骨灰盒的信息</h1>
+		<input type="text" id="inp" placeholder="请输入编号">&nbsp;&nbsp;&nbsp;&nbsp;<button onClick="s()">搜索</button><br><br>
+		<button onClick="nextbutton(0)">前一个</button>&nbsp;&nbsp;&nbsp;<button onClick="nextbutton(1)">后一个</button>&nbsp;&nbsp;&nbsp;<button onClick="latest()">最新</button>&nbsp;&nbsp;&nbsp;<button onClick="listall()">列出当前可用编号</button><br>
+		<p>当前编号为：<span id="thisnumber">无</span></p>
+		<hr>
+		<p id="m" style="width: 100%; text-align: center;">请设置参数。</p>
 		<script language="javascript">
 			function getQ(hname)
 			{
@@ -22,10 +26,13 @@
 				return null;
 			}
 			const njet="N";
-			var ver=getQ("ver"),n=2,fn=njet;
+			var ver=getQ("ver"),n=2,fn=njet,te=-1;
 			const l=["20220226","20220227"],lf=["Urna-Chertovy_Sobaki-2022-02-26.pdf","Urna-Ubivat'_Suk-2022-02-27.pdf"];
-			if(ver=="latest"||ver=="newst")
+			if(ver=="latest"||ver=="sukablyat")
+			{
 				fn=lf[n-1];
+				te=n-1;
+			}
 			else
 			{
 				for(let i=0;i<n;++i)
@@ -33,17 +40,55 @@
 					if(l[i]==ver)
 					{
 						fn=lf[i];
+						te=i;
 						break;
 					}
 				}
 			}
 			if(fn!=njet)
 			{
-				window.location.href=fn;
+				document.getElementById("m").innerHTML="<embed src=\""+fn+"\" style=\"width: 90%; height: 2000px;\">";
+				document.getElementById("thisnumber").innerHTML=l[te];
+			}
+			function s()
+			{
+				window.location.href="index.html?ver="+document.getElementById("inp").value;
+				return;
+			}
+			function nextbutton(a)
+			{
+				if(a)++te;
+				else --te;
+				if(0<=te&&te<n)
+				{
+					window.location.href="index.html?ver="+l[te];
+				}
+				else
+				{
+					document.getElementById("m").innerHTML="已经到达区间边界，此方向没有更多文件。";
+					document.getElementById("thisnumber").innerHTML="无";
+				}
+				return;
+			}
+			function latest()
+			{
+				window.location.href="index.html?ver="+l[n-1];
+				return;
+			}
+			function listall()
+			{
+				let tmp="<table align=\"center\" border=\"1\" style=\"width: 90%;\">\n<tr><th>编号</th><th>文件名</th></tr>\n";
+				for(let i=0;i<n;++i)
+				{
+					tmp+="<tr><td style=\"color: #AAFFAA;\">"+l[i]+"</td><td><a style=\"color: #AAFFFF;\" href=\"index.html?ver="+l[i]+"\">"+lf[i]+"</a></td></tr>\n";
+				}
+				tmp+="</table>";
+				document.getElementById("m").innerHTML=tmp;
+				return;
 			}
 		</script>
 		<hr>
-		<p>&copy;哈儿实验室 保留所有权利。</p>
+		<p>&copy;&nbsp;哈儿实验室 保留所有权利。</p>
 	</div>
 </body>
 </html>
