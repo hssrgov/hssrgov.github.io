@@ -26,8 +26,18 @@
 				return null;
 			}
 			const njet="N";
-			var ver=getQ("ver"),n=2,fn=njet,te=-1;
-			const l=["20220226","20220227"],lf=["Urna-Chertovy_Sobaki-2022-02-26.pdf","Urna-Ubivat'_Suk-2022-02-27.pdf"];
+			var ver=getQ("ver"),n=0,fn=njet,te=-1;
+			const l=[],lf=[];
+			var xmlhttp=new XMLHttpRequest();
+			xmlhttp.open("GET","https://hssrgov.github.io/urna/nlib.xml",false);
+			xmlhttp.send();
+			var xmlDoc=xmlhttp.responseXML;
+			n=Number(xmlDoc.getElementsByTagName("n")[0].childNodes[0].nodeValue);
+			for(let i=0;i<n;++i)
+			{
+				l[i]=xmlDoc.getElementById(i+"_l").childNodes[0].nodeValue;
+				lf[i]=xmlDoc.getElementById(i+"_lf").childNodes[0].nodeValue;
+			}
 			if(ver=="latest"||ver=="sukablyat")
 			{
 				fn=lf[n-1];
