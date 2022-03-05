@@ -88,7 +88,7 @@
 			function listall()
 			{
 				let tmp="<table align=\"center\" border=\"1\" style=\"width: 90%;\">\n<tr><th>编号</th><th>文件名</th></tr>\n";
-				for(let i=0;i<n;++i)
+				for(let i=n-1;i>=0;--i)
 				{
 					tmp+="<tr><td style=\"color: #AAFFAA;\">"+l[i]+"</td><td><a style=\"color: #AAFFFF;\" href=\"index.html?ver="+l[i]+"\">"+lf[i]+"</a></td></tr>\n";
 				}
