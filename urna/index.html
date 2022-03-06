@@ -14,6 +14,7 @@
 		<p>当前编号为：<span id="thisnumber">无</span></p>
 		<hr>
 		<p id="m" style="width: 100%; text-align: center;">请设置参数。</p>
+		<script language="javascript" src="md5.js"></script>
 		<script language="javascript">
 			function getQ(hname)
 			{
@@ -26,13 +27,19 @@
 				return null;
 			}
 			const njet="N";
-			var ver=getQ("ver"),n=0,fn=njet,te=-1;
+			var ver=getQ("ver"),n=0,fn=njet,te=-1,t=getQ("t"),reqcode=getQ("req"),tmd5,myDate=new Date(),dt;
 			const l=[],lf=[];
 			var xmlhttp=new XMLHttpRequest();
 			xmlhttp.open("GET","https://hssrgov.github.io/urna/nlib.xml",false);
 			xmlhttp.send();
 			var xmlDoc=xmlhttp.responseXML;
 			n=Number(xmlDoc.getElementsByTagName("n")[0].childNodes[0].nodeValue);
+			const STDMD5=xmlDoc.getElementsByTagName("pwmd5")[0].childNodes[0].nodeValue,TT=600000;
+			if(t==null||reqcode==null)window.location.href="pw.html?goto="+ver;
+			tmd5=hex_md5(t);
+			if(reqcode!=hex_md5(t+tmd5))window.location.href="pw.html?goto="+ver;
+			dt=Number(myDate.getTime())-Number(t);
+			if(Number(Math.abs(dt))>TT)window.location.href="pw.html?goto="+ver;
 			for(let i=0;i<n;++i)
 			{
 				l[i]=xmlDoc.getElementById(i+"_l").childNodes[0].nodeValue;
@@ -62,7 +69,7 @@
 			}
 			function s()
 			{
-				window.location.href="index.html?ver="+document.getElementById("inp").value;
+				window.location.href="index.html?ver="+document.getElementById("inp").value+"&t="+t+"&req="+reqcode;
 				return;
 			}
 			function nextbutton(a)
@@ -71,7 +78,7 @@
 				else --te;
 				if(0<=te&&te<n)
 				{
-					window.location.href="index.html?ver="+l[te];
+					window.location.href="index.html?ver="+l[te]+"&t="+t+"&req="+reqcode;
 				}
 				else
 				{
@@ -82,7 +89,7 @@
 			}
 			function latest()
 			{
-				window.location.href="index.html?ver="+l[n-1];
+				window.location.href="index.html?ver="+l[n-1]+"&t="+t+"&req="+reqcode;
 				return;
 			}
 			function listall()

@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="..\khl\64.ico">
+<title>内容已加密 - 下载关于骨灰盒的信息</title>
+</head>
+<body style="background: #000000;">
+	<div style="text-align: center; color: #FFFFFF; font-size: 20px; font-family: 华文楷体;">
+		<a href="https://hssrgov.github.io/" target="_blank" style="color: #FFFFFF;">主页</a>
+		<hr><h1>请输入本周的访问密码</h1>
+		<input type="text" id="inp" placeholder="请输入访问密码">&nbsp;&nbsp;&nbsp;&nbsp;<button onClick="s()">确定</button>
+		<p id="wrongpw" style="color: #CC0000; text-align: center;"></p>
+		<script language="javascript" src="md5.js"></script>
+		<script language="javascript">
+			function getQ(hname)
+			{
+				var reg=new RegExp("(^|&)"+hname+"=([^&]*)(&|$)","i");
+    			var r=window.location.search.substr(1).match(reg);
+				if(r!=null)
+				{
+					return unescape(r[2]);
+				}
+				return null;
+			}
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.open("GET", "https://hssrgov.github.io/urna/nlib.xml", false);
+			xmlhttp.send();
+			var xmlDoc = xmlhttp.responseXML;
+			var frompg="latest",tmp=getQ("goto"),myDate=new Date(),t,tmd5;
+			const STDMD5=xmlDoc.getElementsByTagName("pwmd5")[0].childNodes[0].nodeValue;
+			if(tmp!=null)frompg=tmp;
+			function s()
+			{
+				var st=document.getElementById("inp").value,stmd5,reqcode;
+				stmd5=hex_md5(st);
+				if(stmd5==STDMD5)
+				{
+					document.getElementById("wrongpw").innerHTML="";
+					t=String(myDate.getTime());
+					tmd5=hex_md5(t);
+					reqcode=hex_md5(t+tmd5);
+					window.location.href="index.html?ver="+frompg+"&t="+t+"&req="+reqcode;
+					return;
+				}
+				else
+				{
+					document.getElementById("wrongpw").innerHTML="密码错误，请重试！";
+					return;
+				}
+				return;
+			}
+		</script>
+		<hr>
+		<p>&copy;&nbsp;哈儿实验室 保留所有权利。</p>
+	</div>
+</body>
+</html>
