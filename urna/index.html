@@ -64,12 +64,17 @@
 			}
 			if(fn!=njet)
 			{
-				document.getElementById("m").innerHTML="<embed src=\""+fn+"\" style=\"width: 90%; height: 2000px;\">";
+				document.getElementById("m").innerHTML="<button OnClick=\"jump()\">阅读有问题请点此转到PDF页面阅读</button><br><p><embed src=\""+fn+"\" style=\"width: 90%; height: 2000px;\"></p>";
 				document.getElementById("thisnumber").innerHTML=l[te];
 			}
 			function s()
 			{
 				window.location.href="index.html?ver="+document.getElementById("inp").value+"&t="+t+"&req="+reqcode;
+				return;
+			}
+			function jump()
+			{
+				window.location.href=fn;
 				return;
 			}
 			function nextbutton(a)
