@@ -30,16 +30,10 @@
 			var ver=getQ("ver"),n=0,fn=njet,te=-1,t=getQ("t"),reqcode=getQ("req"),tmd5,myDate=new Date(),dt;
 			const l=[],lf=[];
 			var xmlhttp=new XMLHttpRequest();
-			xmlhttp.open("GET","https://hssrgov.github.io/urna/nlib.xml",false);
+			xmlhttp.open("GET","https://hssrgov.github.io/urna/npub.xml",false);
 			xmlhttp.send();
 			var xmlDoc=xmlhttp.responseXML;
 			n=Number(xmlDoc.getElementsByTagName("n")[0].childNodes[0].nodeValue);
-			const STDMD5=xmlDoc.getElementsByTagName("pwmd5")[0].childNodes[0].nodeValue,TT=600000;
-			if(t==null||reqcode==null)window.location.href="pw.html?goto="+ver;
-			tmd5=hex_md5(t);
-			if(reqcode!=hex_md5(t+tmd5))window.location.href="pw.html?goto="+ver;
-			dt=Number(myDate.getTime())-Number(t);
-			if(Number(Math.abs(dt))>TT)window.location.href="pw.html?goto="+ver;
 			for(let i=0;i<n;++i)
 			{
 				l[i]=xmlDoc.getElementById(i+"_l").childNodes[0].nodeValue;
@@ -69,7 +63,7 @@
 			}
 			function s()
 			{
-				window.location.href="index.html?ver="+document.getElementById("inp").value+"&t="+t+"&req="+reqcode;
+				window.location.href="pubfiles.html?ver="+document.getElementById("inp").value;
 				return;
 			}
 			function jump()
@@ -83,7 +77,7 @@
 				else --te;
 				if(0<=te&&te<n)
 				{
-					window.location.href="index.html?ver="+l[te]+"&t="+t+"&req="+reqcode;
+					window.location.href="pubfiles.html?ver="+l[te];
 				}
 				else
 				{
@@ -94,7 +88,7 @@
 			}
 			function latest()
 			{
-				window.location.href="index.html?ver="+l[n-1]+"&t="+t+"&req="+reqcode;
+				window.location.href="pubfiles.html?ver="+l[n-1];
 				return;
 			}
 			function listall()
@@ -102,7 +96,7 @@
 				let tmp="<table align=\"center\" border=\"1\" style=\"width: 90%;\">\n<tr><th>编号</th><th>文件名</th></tr>\n";
 				for(let i=n-1;i>=0;--i)
 				{
-					tmp+="<tr><td style=\"color: #AAFFAA;\">"+l[i]+"</td><td><a style=\"color: #AAFFFF;\" href=\"index.html?ver="+l[i]+"&t="+t+"&req="+reqcode+"\">"+lf[i]+"</a></td></tr>\n";
+					tmp+="<tr><td style=\"color: #AAFFAA;\">"+l[i]+"</td><td><a style=\"color: #AAFFFF;\" href=\"pubfiles.html?ver="+l[i]+"\">"+lf[i]+"</a></td></tr>\n";
 				}
 				tmp+="</table>";
 				document.getElementById("m").innerHTML=tmp;
