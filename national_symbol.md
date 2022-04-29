@@ -17,7 +17,7 @@ catalog: true
 * <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR.png" alt="Хаер Совет Социалисм Респюблик юфеккефлаг" width="75%">  
 哈儿苏维埃社会主义共和国国旗（2021年9月1日——）长宽比为2:1。  
 Хаер Совет Социалисм Респюблик юфеккефлаг (2021 лев 9 влота 1 длота-) премзюль веда 2:1 (дю юль юню).  
-[矢量图下载/вектор билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/PNG штандарт д билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR.png)
+[矢量图下载/вектор билд нагрюзова](https://openg-qkmb.github.io/haerssr/Haer%20SSR.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/PNG штандарт д билд нагрюзова](https://openg-qkmb.github.io/haerssr/Haer%20SSR.png)
 <br/><br/><br/>
 * <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR-Emblem.png" alt="Хаер Совет Социалисм Респюблик юфеккеблазон" width="75%">  
 哈儿苏维埃社会主义共和国国徽（2021年9月1日——），由哈儿实验室06分部哈儿艺术素养培养中心设计。  
