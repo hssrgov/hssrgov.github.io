@@ -26,7 +26,7 @@ catalog: true
 <br/><br/><br/>
 * 哈儿苏维埃社会主义共和国国歌（2021年10月15日——）：***《哈儿苏维埃社会主义共和国国歌》***。  
 Хаер Совет Социалисм Респюблик юфеккекант (2021 лев 15 Хоктябре-): ***«Хаер Совет Социалисм Респюблик Юфеккекант»***.  
-<audio control><source src="https://openg-qkmb.github.io/Haer_SSR.mp3"></audio>  
+音频：<audio control src="https://openg-qkmb.github.io/Haer_SSR.mp3"></audio>  
 [下载/нагрюзова](https://openg-qkmb.github.io/Haer_SSR.mp3)  
 歌词：  
 胜利的号角回荡在原野上，  
