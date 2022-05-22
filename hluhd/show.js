@@ -14,7 +14,6 @@ const dgclr=["#00FF00","#AA00FF","#FFFF00","#00FFFF","#CC0000","#D06A0D","#6B689
 const clrs=["#FFAAAA","#FFFFAA","#AAFFAA","#AAFFFF","#FFAAFF","#AAFFFF"],xmlfileurl="https://hssrgov.github.io/hluhd/haerlib.xml";//链接颜色，共6个；数据库存储文件URL
 const ne_title="不支持 - 哈儿实验室危险哈儿数据库 ХЛЮХД",ne_body="<h1 style=\" color: #FFAAAA;\">浏览器版本太旧，请使用更高版本的浏览器</h1>";
 var hname,born,des,dgs,info,haerona,dgmhx,age,die;//hname：名称（临时存储用的变量），born：出生年份，des：概要，dgs：ХИРГ（临时存储用的变量），info：信息（描述），haerona：此哈儿的负责人，dgmhx：哈儿性质（0=哈儿，1=哈儿团，2=哈儿簇，临时存储用的变量）,age：年龄（临时存储用的变量），die：被销毁或死亡年份（临时存储用的变量，用以标注年龄）
-var hnl=[],bornl=[],desl=[],dgses=[],infol=[],haeronal=[],dgmh=[],diel=[];//存上面变量的数组
 var mhn,minhn,thisyear,actualminhn,rg;//mhn为最大编号，minhn为最小编号，直接影响到索引的表格行数和“当前可用编号”的数值；thisyear为当前年份（公历），用于计算哈儿的年龄，每年末要更新；actualminhn为实际最小哈儿编号；rg为循环替换如[br]之类的简略符号的循环次数，32次足够多
 var xmlDoc;
 function about()//输出版权信息
@@ -87,7 +86,11 @@ function run()//ХЛЮХД主页面运行函数
 		info=info.replace("[las]","<a target=\"_blank\" href=\"");
 		info=info.replace("[lb]","\" style=\"color: "+clrs[Math.floor(Math.random()*60)%6]+";\">");
 		info=info.replace("[lc]","</a>");
-		info=info.replace("[cfls]","ĈFLŜ");
+		info=info.replace("[cfls]","ШИЯЧ");
+		info=info.replace("[sub]","<sub>");
+		info=info.replace("[rsub]","</sub>");
+		info=info.replace("[sup]","<sup>");
+		info=info.replace("[rsup]","</sup>");
 	}
 	document.getElementById("title").innerHTML=hname+" - 哈儿实验室危险哈儿数据库 ХЛЮХД";
 	document.getElementById("t1").innerHTML=document.getElementById("t2").innerHTML=hname;
@@ -117,7 +120,7 @@ function run()//ХЛЮХД主页面运行函数
 }
 function runtable()//ХЛЮХД索引运行函数
 {
-	let rng="<tr><th>危险哈儿号码</th><th>危险哈儿名称</th><th><a style=\"color: #FFFFFF;\" href=\"https://hssrgov.github.io/about/#hirg\" target=\"_blank\">哈儿综合能力等级</a></th></tr>\n",dgsv;//rng：表格内容，初始化时只有这个表头；dgsv：ХИРГ名称（临时存储用的变量）
+	let rng="<tr><th>危险哈儿号码</th><th>危险哈儿名称</th><th><a style=\"color: #FFFFFF;\" href=\"https://hssrgov.github.io/about/#hirg\" target=\"_blank\">哈儿综合能力等级</a></th></tr>\n",dgsv,dgsest,dgmht,hnlt;//rng：表格内容，初始化时只有这个表头；dgsv：ХИРГ名称（临时存储用的变量）
 	if(!tproc())//浏览器版本太旧
 	{
 		document.getElementsByTagName("title")[0].innerHTML=ne_title;//页面标题
@@ -125,18 +128,15 @@ function runtable()//ХЛЮХД索引运行函数
 		about();//输出版权信息
 		return;
 	}
-	for(let i=minhn;i<=mhn;++i)
-	{
-		dgses[i]=xmlDoc.getElementById("dgs_"+i).childNodes[0].nodeValue;
-		dgmh[i]=xmlDoc.getElementById("dgmhx_"+i).childNodes[0].nodeValue;
-		hnl[i]=xmlDoc.getElementById("name_"+i).childNodes[0].nodeValue;
-	}
 	for(let j=minhn;j<=mhn;++j)//j相当于run()中的idd变量
 	{
-		dgsv=dg[dgses[j]];//获取此哈儿对应的ХИРГ名称
-		if(dgmh[j]==1)dgsv+="团";//如果是哈儿团就使ХИРГ名称由“XXX哈儿”变为“XXX哈儿团”
-		else if(dgmh[j]==2)dgsv+="簇";
-		rng+="<tr><td style=\"color: #AAFFAA;\">"+j+"</td><td><a style=\"color: #AAFFFF;\" href=\"index.html?haer="+j+"\" target=\"_blank\">"+hnl[j]+"</a></td><td style=\"color: #FFFFAA;\">"+dgsv+"</td></tr>\n";//添加每行的内容
+		dgsest=xmlDoc.getElementById("dgs_"+j).childNodes[0].nodeValue;
+		dgmht=xmlDoc.getElementById("dgmhx_"+j).childNodes[0].nodeValue;
+		hnlt=xmlDoc.getElementById("name_"+j).childNodes[0].nodeValue;
+		dgsv=dg[dgsest];//获取此哈儿对应的ХИРГ名称
+		if(dgmht==1)dgsv+="团";//如果是哈儿团就使ХИРГ名称由“XXX哈儿”变为“XXX哈儿团”
+		else if(dgmht==2)dgsv+="簇";
+		rng+="<tr><td style=\"color: #AAFFAA;\">"+j+"</td><td><a style=\"color: #AAFFFF;\" href=\"index.html?haer="+j+"\" target=\"_blank\">"+hnlt+"</a></td><td style=\"color: #FFFFAA;\">"+dgsv+"</td></tr>\n";//添加每行的内容
 	}
 	document.getElementById("table").innerHTML=rng;//输出到页面
   	about();//输出版权信息
