@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <lib>
 	<filedata>
-		<mhn>77</mhn><!--最大哈儿编号-->
+		<mhn>78</mhn><!--最大哈儿编号-->
 		<minhn>1</minhn><!--最小哈儿编号-->
 		<thisyear>2022</thisyear><!--今年年份-->
 		<actualminhn>-1</actualminhn><!--实际最小哈儿编号-->
@@ -797,6 +797,16 @@
 			<dgmhx id="dgmhx_77">0</dgmhx>
 			<die id="die_77">-1</die>
 			<info id="info_77">这是一个表里不一的双面哈儿，是[la]76[lb]弹簧猪[lc]的配位哈儿（不存在附属关系）。[br]该哈儿也积极地参与到销毁[lstrw]ОпенГ-ккмб[rstr]的行动中，被下达了销毁令。[br]该哈儿十分讨人喜欢，拥有极端“美丽”的外表和矫揉造作的神态，[br]就算被辱骂也要通过挑逗、讨好的方式令辱骂者重新对其信任，[br]以此达到不动声色地害死他人的目的。[lstr]我们不建议模仿这种行为。[rstr][br][lstrw]ОпенГ-ккмб[rstr]和[lstrw]Д-2530-60Ю[rstr]对其深感不满，但销毁从未成功。[br]根据《哈儿实验室危险哈儿销毁操作准则（2022年）》，我们决定将其密封避光于阴凉处储存。</info>
+		</haer>
+		<haer id="78">
+			<name id="name_78">地震者</name>
+			<born id="born_78">2007</born>
+			<des id="des_78">不断震动的哈儿</des>
+			<dgs id="dgs_78">3</dgs>
+			<haerona id="haerona_78">И-3484-09Я</haerona>
+			<dgmhx id="dgmhx_78">0</dgmhx>
+			<die id="die_78">-1</die>
+			<info id="info_78">这是一个喜欢不断震动的哈儿，对[la]76[lb]弹簧猪[lc]有特殊喜好。[br]其激烈反对我们对弹簧猪下达的销毁令，并在ШИЯЧ的大厅内震动。[br]其常常在ШИЯЧ例行哈儿宣讲时将手伸进裤子中震动，并观察四周。[br]但其观察四周的行为暴露了其地震的行为，使得其被观测到而被鉴定为危险哈儿。[br]其常常在震动后借纸，假装擤鼻涕，并将其放入裤子中，[br]擦拭地震所产生的以[lstrw]1,12-二氨基-4,9-二氮十二烷（化学式：C[sub]10[rsub]H[sub]26[rsub]N[sub]4[rsub]）[rstr]为主要有效成分的液体，[br]为白色黏稠液体，有石楠花的特殊气味，但由于其清理及时，四周的哈儿尚未发现。[br]我们无法理解其这种行为，但依然为其提供纸巾以清理液体。</info>
 		</haer>
 		<!--<haer id="idd">
 			<name id="name_idd">哈儿名称</name>
