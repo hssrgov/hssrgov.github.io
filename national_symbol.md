@@ -11,83 +11,18 @@ catalog: true
 
 ***<font color="#FF0000">Бең уя Хаер Совет Социалисм Респюблик Юфекке Эваровь клота стаг виполени: Нерюз уя бең юайк мисюз оре несюбтен Хаер Совет Социалисм Респюблик Юфекке Эваровь. Бең клота юдсафоз Хаер Совет Социалисм Респюблик Юфекке Эваровь клота стаг лау Хаер Лаботий недекведаров д штандарт текст ведаштандаь.</font>***
 
----------------------------------------  
-# 现行国家象征 Лис Юфекке Эваровь
+-----
 
-* <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR.png" alt="Хаер Совет Социалисм Респюблик юфеккефлаг" width="75%">  
-哈儿苏维埃社会主义共和国国旗（2021年9月1日——）长宽比为2:1。  
-Хаер Совет Социалисм Респюблик юфеккефлаг (2021 лев 1 Хсентябре-) премзюль веда 2:1 (дю юль юню).  
-[矢量图下载/вектор билд нагрюзова](https://openg-qkmb.github.io/haerssr/Haer%20SSR.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/PNG штандарт д билд нагрюзова](https://openg-qkmb.github.io/haerssr/Haer%20SSR.png)
-<br/><br/><br/>
-* <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR-Emblem.png" alt="Хаер Совет Социалисм Респюблик юфеккеблазон" width="75%">  
-哈儿苏维埃社会主义共和国国徽（2021年9月1日——），由哈儿实验室06分部哈儿艺术素养培养中心设计。  
-Хаер Совет Социалисм Респюблик юфеккеблазон (2021 лев 1 Хсентябре-), в Хаер Лаботий 06-генюм форетон хаер прозвең легопоь разоқарованиэ сюк эфидров.  
-[矢量图下载/вектор билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/PNG штандарт д билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-Emblem.png)
-<br/><br/><br/>
-* 哈儿苏维埃社会主义共和国国歌（2021年10月15日——）：***《哈儿苏维埃社会主义共和国国歌》***。  
-Хаер Совет Социалисм Респюблик юфеккекант (2021 лев 15 Хоктябре-): ***«Хаер Совет Социалисм Респюблик Юфеккекант»***.  
-音频：<audio controls><source src="https://openg-qkmb.github.io/Haer_SSR.mp3"></audio>  
-[下载/нагрюзова](https://openg-qkmb.github.io/Haer_SSR.mp3)  
-歌词：  
-胜利的号角回荡在原野上，  
-各处都是我们那光荣的红旗。  
-鲜花四处绽放，歌声八方飘扬，  
-人民充满希冀地看向远方。  
-*[副歌]*  
-*无所不胜的英勇哈儿人民，*  
-*携带着劳动者的自古理想。*  
-*共产主义之光，*  
-*哈儿国前进的方向！*  
-<br/>  
-十月之光照亮了古老的山岗，  
-列宁与斯大林带来了希望。  
-提季提的教诲，小哈儿的思想，  
-哈儿人民的誓言在世界回荡。  
-*[副歌]*  
-<br/>  
-勤劳的双手和充实的思想，  
-我们必将实现人民自古的向往。  
-红旗飘扬——终身的信仰！  
-以血肉书写人类的新篇章。  
-*[副歌]*  
+<img src="https://hssrgov.github.io/files/Haerskaya_SFSR.png" alt="Хаер Совет Социалисм Респюблик юфеккефлаг" width="75%">  
+哈儿苏维埃社会主义共和国国旗  
+[矢量图下载](https://hssrgov.github.io/files/Haerskaya_SFSR.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载](https://hssrgov.github.io/files/Haerskaya_SFSR.png)
 <br/><br/>
-Кантуоре:  
-Спретфа д кант ңаюдмап т дисохиканва уюк,  
-алок веда яй д слав сеқи флаг.  
-Флове алок влове, вкант алок стютю,  
-пета малева з эваров хохе.  
-*[Генюмдюкант]*  
-*Внехрокти д брава Хаер пета,*  
-*ехеяи ёрева д бин малева.*  
-*Слав коммюнисм,*  
-*Хаер Юфекее д леккзорова!*  
-<br/>  
-Слав деквлора евира квен д мортина,  
-Ленин бев Сталин загрюзова малева.  
-Тижити д разоқа, Синхаер д зюрт,  
-Хаер пета д вава т мир ңаюдмап.  
-*[Генюмдюкант]*  
-<br/>  
-Циа д дхора бев уома д зюрт,  
-яй стаг уилав корска пета квен д малева.  
-Сеқи флаг ңаюдмап-юнбродека верит!  
-уя бнастров розав недекветина д невк юкг.  
-*[Генюмдюкант]*  
-<br/><br/><br/>
-
----------------------------------------  
-# 已废止的国家象征 Фюк Юфекке Эваровь
-
-* <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR-First.png" alt="Хаер Совет Социалисм Респюблик фюк юфеккефлаг" width="75%">  
-前国旗（2020年11月1日——2021年8月31日）长宽比为2:1，旗面为纯红色。红色为**#CC0000**。  
-Фюк юфеккефлаг (2020 лев 1 Хноябре-2021 лев 1 Хавгусте) премзюль веда 2:1 (дю юль юню), флаг веда алакаь сеқи. Сеқи веда **#CC0000**.  
-[矢量图下载/вектор билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-First.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/PNG штандарт д билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-First.png)
-<br/><br/><br/>
-* <img src="https://openg-qkmb.github.io/haerssr/Haer%20SSR-First-Emblem.png" alt="Хаер Совет Социалисм Респюблик фюк юфеккеблазон" width="75%">  
-前国徽（2020年11月1日——2021年8月31日）为红色正五角星。红色为**#CC0000**。  
-Фюк юфеккеблазон (2020 лев 1 Хноябре-2021 лев 31 Хавгусте) веда сеқи тик някъ. Сеқи веда **#CC0000**.  
-[矢量图下载/вектор билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-First-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载/PNG штандарт д билд нагрюзова](https://github.com/hssrgov/hssrgov.github.io/releases/download/v0.0.0/Haer.SSR-First-Emblem.png)
-<br/><br/><br/>
-* 哈儿苏维埃社会主义共和国国歌（2020年11月1日——2021年10月14日）：***《国际歌》***。  
-Хаер Совет Социалисм Респюблик юфеккекант (2020 лев 1 Хноябре-2020 лев 14 Хоктябре): ***«Интернаци Кант»***.  
-[下载/нагрюзова](https://openg-qkmb.github.io/Internatsi_Kant.mp3)
+  
+<img src="https://hssrgov.github.io/files/Haerskaya_SFSR-Emblem.png" alt="Хаер Совет Социалисм Респюблик юфеккеблазон" width="75%">  
+哈儿苏维埃社会主义共和国国徽  
+[矢量图下载](https://hssrgov.github.io/files/Haerskaya_SFSR-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载](https://hssrgov.github.io/files/Haerskaya_SFSR-Emblem.png)
+<br/><br/>
+  
+哈儿苏维埃社会主义共和国国歌（2021年10月15日——）：***《哈儿苏维埃社会主义共和国国歌》***。  
+音频：<audio controls><source src="https://openg-qkmb.github.io/Haer_SSR.mp3"></audio>  
+[下载](https://openg-qkmb.github.io/Haer_SSR.mp3)  
