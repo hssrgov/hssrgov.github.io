@@ -88,11 +88,15 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Хаер Лаботий 01 Форетон (Китай Щаяз: 哈儿实验室01分部)",
+        title: "哈儿实验室01分部",
         href: "https://mrhaer.github.io"
     },
     {
-        title: "Спедфрек Бин Боцан Треквдог Вебат (Китай Щаяз: 伪证大典官网)",
+        title: "伪证大典官网",
         href: "https://weizhengcom.github.io/"
+    },
+    {
+        title: "FreePhobia",
+        href: "https://freephobia.github.io/"
     }
 ]
