@@ -1,4 +1,5 @@
-﻿function getQ(hname)//获取参数
+﻿console.log("祝您好运！");//祝您好运！
+function getQ(hname)//获取参数
 {
     var reg=new RegExp("(^|&)"+hname+"=([^&]*)(&|$)","i");
     var r=window.location.search.substr(1).match(reg);
@@ -14,44 +15,45 @@ const dgclr=["#00FF00","#AA00FF","#FFFF00","#00FFFF","#CC0000","#D06A0D","#6B689
 const clrs=["#FFAAAA","#FFFFAA","#AAFFAA","#AAFFFF","#FFAAFF","#AAFFFF"],xmlfileurl="https://hssrgov.github.io/hluhd/haerlib.xml";//链接颜色，共6个；数据库存储文件URL
 const ne_title="不支持 - 哈儿实验室危险哈儿数据库 БДОХЛХ",ne_body="<h1 style=\" color: #FFAAAA;\">浏览器版本太旧，请使用更高版本的浏览器</h1>";//База Данных Опасных Хаеры Лаборатории Хаера=БДОХЛХ
 var hname,born,des,dgs,info,haerona,dgmhx,age,die;//hname：名称（临时存储用的变量），born：出生年份，des：概要，dgs：ХИРГ（临时存储用的变量），info：信息（描述），haerona：此哈儿的负责人，dgmhx：哈儿性质（0=哈儿，1=哈儿团，2=哈儿簇，临时存储用的变量）,age：年龄（临时存储用的变量），die：被销毁或死亡年份（临时存储用的变量，用以标注年龄）
-var mhn,minhn,thisyear,actualminhn,rg;//mhn为最大编号，minhn为最小编号，直接影响到索引的表格行数和“当前可用编号”的数值；thisyear为当前年份（公历），用于计算哈儿的年龄，每年末要更新；actualminhn为实际最小哈儿编号；rg为循环替换如[br]之类的简略符号的循环次数，32次足够多
+var mhn,minhn,thisyear,actualminhn,rg,qj;//mhn为最大编号，minhn为最小编号，直接影响到索引的表格行数和“当前可用编号”的数值；thisyear为当前年份（公历），用于计算哈儿的年龄，每年末要更新；actualminhn为实际最小哈儿编号；rg为循环替换如[br]之类的简略符号的循环次数，32次足够多；可用哈儿区间
 var xmlDoc;
 function about()//输出版权信息
 {
   document.getElementById("about_index").innerHTML="哈儿实验室 &copy; 2018-"+thisyear+" 保留所有权利。<br>Лаборатория Хаера &copy; 2018-"+thisyear+" Все права защищены.";
   return;
 }
-function tproc()
+function tproc()//预处理
 {
     let xmlhttp=new XMLHttpRequest();
-	if(!window.XMLHttpRequest)return false;
+	if(!window.XMLHttpRequest)return false;//如果此方法不可用，则提示用户更新浏览器
 	xmlhttp.open("GET",xmlfileurl,false);
 	xmlhttp.send();
-	xmlDoc=xmlhttp.responseXML;
+	xmlDoc=xmlhttp.responseXML;//以上均为获取XML文件的步骤
 	mhn=Number(xmlDoc.getElementsByTagName("mhn")[0].childNodes[0].nodeValue);
 	minhn=Number(xmlDoc.getElementsByTagName("minhn")[0].childNodes[0].nodeValue);
 	thisyear=Number(xmlDoc.getElementsByTagName("thisyear")[0].childNodes[0].nodeValue);
 	actualminhn=Number(xmlDoc.getElementsByTagName("actualminhn")[0].childNodes[0].nodeValue);
-	rg=Number(xmlDoc.getElementsByTagName("rg")[0].childNodes[0].nodeValue);
+	rg=Number(xmlDoc.getElementsByTagName("rg")[0].childNodes[0].nodeValue);//以上为获取这些基本值的步骤
 	return true;
 }
 function run()//БДОХЛХ主页面运行函数
 {
 	var idd=getQ("haer");//idd：请求的哈儿编号
 	document.getElementById("sid").value=idd;//将编号填充至搜索框内
-	if(!tproc())//浏览器版本太旧
+	if(!tproc())//浏览器版本太旧，提示用户更新浏览器
 	{
 		document.getElementById("title").innerHTML=ne_title;//页面标题
 		document.getElementById("main").innerHTML=ne_body;//页面内容（正文）
 		about();//输出版权信息
-		return;
+		return;//不知为何，我试图用IE打开时，什么也没有输出？？（反正都应该不会用这种古董了，算了）
 	}
-	console.log("mhn:"+mhn+" minhn:"+minhn+" thisyear:"+thisyear+" actualminhn:"+actualminhn+" rg:"+rg);
+	qj="["+minhn+","+mhn+"]";
+	console.log("[BasicInfo]: [mhn:"+mhn+" minhn:"+minhn+" thisyear:"+thisyear+" actualminhn:"+actualminhn+" rg:"+rg+"]");//输出测试信息
 	if((idd<actualminhn)||(idd>mhn))//没有档案，输出没有档案的说明并停止运行
 	{
 		document.getElementById("title").innerHTML="无档案 - 哈儿实验室危险哈儿数据库 БДОХЛХ";//页面标题
 		document.getElementById("main").innerHTML="<h1 style=\" color: #FFAAAA;\">没有关于这个哈儿的档案</h1>";//页面内容（正文）
-		document.getElementById("haernum").innerHTML="["+minhn+","+mhn+"]";//当前可用哈儿
+		document.getElementById("haernum").innerHTML=qj;//当前可用哈儿
 		about();//输出版权信息
 		return;
 	}
@@ -59,7 +61,7 @@ function run()//БДОХЛХ主页面运行函数
 	{
 		document.getElementById("title").innerHTML="未选择 - 哈儿实验室危险哈儿数据库 БДОХЛХ";//页面标题
 		document.getElementById("main").innerHTML="<h1 style=\" color: #FFAAAA;\">请选择一个哈儿</h1>";//页面内容（正文）
-		document.getElementById("haernum").innerHTML="["+minhn+","+mhn+"]";//当前可用哈儿
+		document.getElementById("haernum").innerHTML=qj;//当前可用哈儿
 		about();//输出版权信息
 		return;
 	}
@@ -114,7 +116,7 @@ function run()//БДОХЛХ主页面运行函数
 	}
 	document.getElementById("dg").style="color: "+dgclr[dgs]+";";//将颜色设置为ХИРГ对应的颜色
 	document.getElementById("haerona").innerHTML=haerona;//输出哈儿的负责人
-	document.getElementById("haernum").innerHTML="["+minhn+","+mhn+"]";//输出当前可用哈儿（这两个变量直接关系到索引的运行！！）
+	document.getElementById("haernum").innerHTML=qj;//输出当前可用哈儿（这两个变量直接关系到索引的运行！！）
   	about();//输出版权信息
 	return;
 }
@@ -157,7 +159,7 @@ function test002(string)//测试能否连接到hssrgov网站并测试js是否正
 {
 	return "reply: req="+string;
 }
-//function tmpshow1()//show.js 2022开年大改中帮助修改的临时函数
+//function tmpshow1()//show.js 2022年初大改中帮助修改的临时函数
 //{
 //	var str="";
 //	for(var i=0;i<=mhn;++i)
