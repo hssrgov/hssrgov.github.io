@@ -1,4 +1,4 @@
-﻿console.log("祝您好运！");//祝您好运！
+﻿console.log("警告！此文件是过期版本，参见../bdohlh/show.js");//祝您好运！
 function getQ(hname)//获取参数
 {
     var reg=new RegExp("(^|&)"+hname+"=([^&]*)(&|$)","i");
@@ -39,6 +39,8 @@ function tproc()//预处理
 function run()//БДОХЛХ主页面运行函数
 {
 	var idd=getQ("haer");//idd：请求的哈儿编号
+	if(idd!=null)window.location.href="https://hssrgov.github.io/bdohlh/index.html?haer="+idd;
+	else window.location.href="https://hssrgov.github.io/bdohlh/index.html";
 	document.getElementById("sid").value=idd;//将编号填充至搜索框内
 	if(!tproc())//浏览器版本太旧，提示用户更新浏览器
 	{
@@ -122,6 +124,7 @@ function run()//БДОХЛХ主页面运行函数
 }
 function runtable()//БДОХЛХ索引运行函数
 {
+	window.location.href="https://hssrgov.github.io/bdohlh/list.html";
 	let rng="<tr><th>危险哈儿号码</th><th>危险哈儿名称</th><th><a style=\"color: #FFFFFF;\" href=\"https://hssrgov.github.io/about/#hirg\" target=\"_blank\">哈儿综合能力等级</a></th></tr>\n",dgsv,dgsest,dgmht,hnlt;//rng：表格内容，初始化时只有这个表头；dgsv：ХИРГ名称（临时存储用的变量）
 	if(!tproc())//浏览器版本太旧
 	{
@@ -147,8 +150,8 @@ function runtable()//БДОХЛХ索引运行函数
 function nextbutton(ifnext)//БДОХЛХ主页面翻页按钮运行函数，若ifnext=1则翻到后一个哈儿，否则翻到前一个哈儿
 {
 	let idd=getQ("haer");//idd：请求的哈儿编号
-	if(ifnext==1)window.location.href="index.html?haer="+(Number(idd)+Number(1));//向后翻页
-	else window.location.href="index.html?haer="+(Number(idd)-Number(1));//向前翻页
+	if(ifnext==1)window.location.href="https://hssrgov.github.io/bdohlh/index.html?haer="+(Number(idd)+Number(1));//向后翻页
+	else window.location.href="https://hssrgov.github.io/bdohlh/index.html?haer="+(Number(idd)-Number(1));//向前翻页
 	return;
 }
 function test001()//测试能否连接到hssrgov网站
