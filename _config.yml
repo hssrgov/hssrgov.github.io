@@ -1,48 +1,39 @@
-# Site settings | 网站设置
-title: 哈儿实验室和哈儿国政府 Хаер Лаботий бев ХССР Говера
+# Site settings
+title: 哈儿实验室
 SEOTitle: 哈儿实验室
-header-img: img/home-bg-he.png
+header-img: img/home-bg.jpg
 email: radiumvs@foxmail.com
-description: "Тет веебат веда Хаер Совет Социалисм Респюблик Говера мю ихф д юайк."
-keyword: "Haer, Haer Labotiy, Haer SSR, HSSR, HSSR Govera, haer, OpenG-qkmb, Хаер, Хаер Лаботий, Хаер ССР, ХССР, ХССР Говера, хаер, ОпенГ-ккмб, 哈儿, 哈儿实验室, 哈儿国, 哈儿苏维埃社会主义共和国"
-url: "https://hssrgov.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/hssrgov/hssrgov.github.io" #code repository | 代码仓库
+description: "哈儿实验室的官方网站。Это официальный сайт Лаборатории Хаера. Гэта афіцыйны сайт Лабараторыі Хаера. Це офіційний сайт Лабораторії Хаера."
+keyword: "哈儿, 哈儿实验室, haer, haer lab, laboratoriya haera, laboratorija haera, хаер, лаборатория хаера"
+url: "https://hssrgov.github.io/"			  # your host, for absolute URL
+baseurl: ""							 # for example, '/blog' if your blog hosted on 'host/blog'
 
+# Publish posts or collection documents with a future date.
+future: true
 
-# Sidebar settings | 侧边栏设置
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Алак мир пролетар, соз!"
-sidebar-avatar: /img/head.jpg      # 头像
-
-
-
-
-
-# SNS settings | 社交网络设置
-github_username: hssrgov
-
+# SNS settings
+RSS: false
+github_username:	hssrgov
 
 
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
 permalink: pretty
-paginate: 64
-# 转换时排除某些文件夹或文件。被排除的文件或文件夹的路径是相对于网站源码目录的，源码目录以外不受影响。
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-Regeneration: true    # 允许文件修改时自动重新生成网站。
-
-
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true						  # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
 
 
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
-
 
 
 
@@ -53,29 +44,20 @@ plugins: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-
-# Gitalk
-gitalk:
-  enable: true    # 是否开启Gitalk评论
-  clientID: 858139838455d9bec55a                            #生成的clientID
-  clientSecret: f5f74ef7878dc140958188345e8a2cbb8e7dfaa2    #生成的clientSecret
-  repo: hssrgov.github.io    #仓库名称
-  owner: hssrgov    # github用户名
-  admin: hssrgov
-  distractionFreeMode: true # 是否启用类似FB的阴影遮罩
+  input: GFM							# use Github Flavored Markdown !important
 
 
-# 统计
 
-# Analytics settings
-# Baidu Analytics
-ba_track_id: 9acee03023ad0c6c993dd86df81e2ac8
+# Sidebar settings
+sidebar: true						   # whether or not using Sidebar.
+sidebar-about-description: "哈儿实验室——让正常人变成哈儿，让哈儿快乐生活。"
+sidebar-avatar: https://github.com/hssrgov.png # use absolute URL, seeing it's used in both `/` and `/about/`
+
 
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+featured-tags: true					 # whether or not using Feature-Tags
+featured-condition-size: 1			  # A tag will be featured if the size of it is more than this condition value
 
 
 
@@ -85,18 +67,23 @@ service-worker: true
 
 
 
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
 # Friends
 friends: [
-    {
-        title: "哈儿实验室01分部",
-        href: "https://mrhaer.github.io"
-    },
-    {
-        title: "伪证大典官网",
-        href: "https://weizhengcom.github.io/"
-    },
-    {
-        title: "FreePhobia",
-        href: "https://freephobia.github.io/"
-    }
+	{
+		title: "哈儿实验室01分部",
+		href: "https://mrhaer.github.io"
+	},
+	{
+		title: "伪证大典官网",
+		href: "https://weizhengcom.github.io/"
+	},
+	{
+		title: "FreePhobia",
+		href: "https://freephobia.github.io/"
+	}
 ]
