@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="https://hssrgov.github.io/img/favicon.ico">
+<title>Рекордер - Лаборатория Хаера</title>
+</head>
+<body style="background: #000000;">
+	<div style="text-align: center; color: #FFFFFF;">
+		<h1>Рекордер</h1>
+        <span style="font-size: xx-large;">
+            <button style="background-color: #AAAAFF; width: 20%; height: 50px; font-size: xx-large;" onClick="dobavlyat(1);">Отец</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button style="background-color: #FFAAAA; width: 20%; height: 50px; font-size: xx-large;" onClick="dobavlyat(0);">Мать</button>
+        </span>
+        <span style="font-size: x-large;">
+            <table border="1" align="center">
+                <caption>Данные</caption>
+                <thead>
+                    <tr>
+                        <th>Время</th>
+                        <th>Отец</th>
+                        <th>Мать</th>
+                    </tr>
+                </thead>
+                <tbody id="table">
+                    <!--Например:
+                    <tr>
+                        <td>Время</td>
+                        <td>√</td>
+                        <td></td>
+                    </tr>
+                    -->
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Общий:</th>
+                        <th id="otyets">0</th>
+                        <th id="mat">0</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <p>Общий: <span id="obschiy">0</span></p>
+        </span>
+        <hr>
+		<p>Лаборатория Хаера &copy; 2018-<span id="god">[ГОД]</span> Все права защищены.</p>
+	</div>
+    <script type="text/javascript">
+        var svidaniye=new Date(),otyets=0,mat=0,obschiy=0,vryemya,tekst;
+        document.getElementById("god").innerHTML=svidaniye.getFullYear();
+        function poluchit_vremya()
+        {
+            var svidaniye1=new Date();
+            return vryemya=svidaniye1.getFullYear()+"/"+(svidaniye1.getMonth()+1)+"/"+svidaniye1.getDate()+" "+svidaniye1.toLocaleTimeString('chinese',{hour12: false});
+            // return vryemya=svidaniye.getFullYear()+"/"+(svidaniye.getMonth()+1)+"/"+svidaniye.getDate()+" "+svidaniye.getHours()+":"+svidaniye.getMinutes()+":"+svidaniye.getSeconds();
+        }
+        function dobavlyat(Otyets_ili_Nyet)
+        {
+            if(Otyets_ili_Nyet)
+            {
+                ++otyets,++obschiy;
+                vryemya=poluchit_vremya();
+                tekst=document.getElementById("table").innerHTML+"<tr><td>"+vryemya+"</td><td style=\"color: #AAAAFF;\">√</td><td style=\"color: #FFAAAA;\"></td></tr>";
+                document.getElementById("table").innerHTML=tekst;
+                document.getElementById("otyets").innerHTML=otyets;
+                document.getElementById("obschiy").innerHTML=obschiy;
+            }
+            else
+            {
+                ++mat,++obschiy;
+                vryemya=poluchit_vremya();
+                tekst=document.getElementById("table").innerHTML+"<tr><td>"+vryemya+"</td><td style=\"color: #AAAAFF;\"></td><td style=\"color: #FFAAAA;\">√</td></tr>";
+                document.getElementById("table").innerHTML=tekst;
+                document.getElementById("mat").innerHTML=mat;
+                document.getElementById("obschiy").innerHTML=obschiy;
+            }
+            return;
+        }
+    </script>
+</body>
+</html>
