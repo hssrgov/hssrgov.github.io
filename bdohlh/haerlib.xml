@@ -3,7 +3,6 @@
 	<filedata>
 		<mhn>90</mhn><!--最大哈儿编号-->
 		<minhn>1</minhn><!--最小哈儿编号-->
-		<thisyear>2022</thisyear><!--今年年份-->
 		<actualminhn>-1</actualminhn><!--实际最小哈儿编号-->
 		<rg>32</rg><!--循环替换如[br]之类的简略符号的循环次数-->
 	</filedata>

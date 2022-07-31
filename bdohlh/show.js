@@ -15,8 +15,9 @@ const dgclr=["#00FF00","#AA00FF","#FFFF00","#00FFFF","#CC0000","#D06A0D","#6B689
 const clrs=["#FFAAAA","#FFFFAA","#AAFFAA","#AAFFFF","#FFAAFF","#AAFFFF"],xmlfileurl="https://hssrgov.github.io/hluhd/haerlib.xml";//链接颜色，共6个；数据库存储文件URL
 const ne_title="不支持 - 哈儿实验室危险哈儿数据库 БДОХЛХ",ne_body="<h1 style=\" color: #FFAAAA;\">浏览器版本太旧，请使用更高版本的浏览器</h1>";//База Данных Опасных Хаеры Лаборатории Хаера=БДОХЛХ
 var hname,born,des,dgs,info,haerona,dgmhx,age,die;//hname：名称（临时存储用的变量），born：出生年份，des：概要，dgs：ХИРГ（临时存储用的变量），info：信息（描述），haerona：此哈儿的负责人，dgmhx：哈儿性质（0=哈儿，1=哈儿团，2=哈儿簇，临时存储用的变量）,age：年龄（临时存储用的变量），die：被销毁或死亡年份（临时存储用的变量，用以标注年龄）
-var mhn,minhn,thisyear,actualminhn,rg,qj;//mhn为最大编号，minhn为最小编号，直接影响到索引的表格行数和“当前可用编号”的数值；thisyear为当前年份（公历），用于计算哈儿的年龄，每年末要更新；actualminhn为实际最小哈儿编号；rg为循环替换如[br]之类的简略符号的循环次数，32次足够多；可用哈儿区间
-var xmlDoc;
+var mhn,minhn,thisyear,actualminhn,rg,qj;//mhn为最大编号，minhn为最小编号，直接影响到索引的表格行数和“当前可用编号”的数值；thisyear为当前年份（公历），用于计算哈儿的年龄；actualminhn为实际最小哈儿编号；rg为循环替换如[br]之类的简略符号的循环次数，32次足够多；可用哈儿区间
+var xmlDoc,date=new Date();
+thisyear=date.getFullYear();
 function about()//输出版权信息
 {
   document.getElementById("about_index").innerHTML="哈儿实验室 &copy; 2018-"+thisyear+" 保留所有权利。<br>Лаборатория Хаера &copy; 2018-"+thisyear+" Все права защищены.";
@@ -31,7 +32,6 @@ function tproc()//预处理
 	xmlDoc=xmlhttp.responseXML;//以上均为获取XML文件的步骤
 	mhn=Number(xmlDoc.getElementsByTagName("mhn")[0].childNodes[0].nodeValue);
 	minhn=Number(xmlDoc.getElementsByTagName("minhn")[0].childNodes[0].nodeValue);
-	thisyear=Number(xmlDoc.getElementsByTagName("thisyear")[0].childNodes[0].nodeValue);
 	actualminhn=Number(xmlDoc.getElementsByTagName("actualminhn")[0].childNodes[0].nodeValue);
 	rg=Number(xmlDoc.getElementsByTagName("rg")[0].childNodes[0].nodeValue);//以上为获取这些基本值的步骤
 	return true;
@@ -48,7 +48,7 @@ function run()//БДОХЛХ主页面运行函数
 		return;//不知为何，我试图用IE打开时，什么也没有输出？？（反正都应该不会用这种古董了，算了）
 	}
 	qj="["+minhn+","+mhn+"]";
-	console.log("[BasicInfo]: [mhn:"+mhn+" minhn:"+minhn+" thisyear:"+thisyear+" actualminhn:"+actualminhn+" rg:"+rg+"]");//输出测试信息
+	console.log("[BasicInfo]: [mhn:"+mhn+" minhn:"+minhn+" actualminhn:"+actualminhn+" rg:"+rg+"]");//输出测试信息
 	if((idd<actualminhn)||(idd>mhn))//没有档案，输出没有档案的说明并停止运行
 	{
 		document.getElementById("title").innerHTML="无档案 - 哈儿实验室危险哈儿数据库 БДОХЛХ";//页面标题
