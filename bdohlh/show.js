@@ -18,7 +18,7 @@ var hname,born,des,dgs,info,haerona,dgmhx,age,die,xmlfileurl;//hname：名称（
 var mhn,minhn,thisyear,actualminhn,rg,qj;//mhn为最大编号，minhn为最小编号，直接影响到索引的表格行数和“当前可用编号”的数值；thisyear为当前年份（公历），用于计算哈儿的年龄；actualminhn为实际最小哈儿编号；rg为循环替换如[br]之类的简略符号的循环次数，32次足够多；可用哈儿区间
 var xmlDoc,date=new Date();
 thisyear=date.getFullYear();//加载当前年份
-xmlfileurl=window.top.href+XMLFILEURL_ORI;//加载XML文件地址
+xmlfileurl=window.top.location.href+XMLFILEURL_ORI;//加载XML文件地址
 console.log("[Info]: [thisyear: "+thisyear+" xmlfileurl:"+xmlfileurl+"]");
 function about()//输出版权信息
 {
