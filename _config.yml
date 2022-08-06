@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: radiumvs@foxmail.com
 description: "哈儿实验室的官方网站。Это официальный сайт Лаборатории Хаера. Гэта афіцыйны сайт Лабараторыі Хаера. Це офіційний сайт Лабораторії Хаера."
 keyword: "哈儿, 哈儿实验室, haer, haer lab, laboratoriya haera, laboratorija haera, хаер, лаборатория хаера"
-url: "https://hssrgov.github.io/"			  # your host, for absolute URL
+url: "https://www.khayer.cn/"			  # your host, for absolute URL
 baseurl: ""							 # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.

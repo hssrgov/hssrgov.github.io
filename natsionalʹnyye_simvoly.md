@@ -10,16 +10,16 @@ catalog: true
 
 -----
 
-<img src="https://hssrgov.github.io/files/Haerskaya_SFSR.png" alt="哈儿苏维埃联邦社会主义共和国国旗" width="75%">  
+<img src="https://www.khayer.cn/files/Haerskaya_SFSR.png" alt="哈儿苏维埃联邦社会主义共和国国旗" width="75%">  
 哈儿苏维埃联邦社会主义共和国国旗  
-[矢量图下载](https://hssrgov.github.io/files/Haerskaya_SFSR.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载](https://hssrgov.github.io/files/Haerskaya_SFSR.png)
+[矢量图下载](https://www.khayer.cn/files/Haerskaya_SFSR.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载](https://www.khayer.cn/files/Haerskaya_SFSR.png)
 <br/><br/>
   
-<img src="https://hssrgov.github.io/files/Haerskaya_SFSR-Emblem.png" alt="哈儿苏维埃联邦社会主义共和国国徽" width="75%">  
+<img src="https://www.khayer.cn/files/Haerskaya_SFSR-Emblem.png" alt="哈儿苏维埃联邦社会主义共和国国徽" width="75%">  
 哈儿苏维埃联邦社会主义共和国国徽  
-[矢量图下载](https://hssrgov.github.io/files/Haerskaya_SFSR-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载](https://hssrgov.github.io/files/Haerskaya_SFSR-Emblem.png)
+[矢量图下载](https://www.khayer.cn/files/Haerskaya_SFSR-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载](https://www.khayer.cn/files/Haerskaya_SFSR-Emblem.png)
 <br/><br/>
   
 哈儿苏维埃联邦社会主义共和国国歌：***《国际歌》***。  
-音频：<audio controls><source src="https://hssrgov.github.io/files/Internatsional.mp3"></audio>  
-[下载](https://hssrgov.github.io/files/Internatsional.mp3)  
+音频：<audio controls><source src="https://www.khayer.cn/files/Internatsional.mp3"></audio>  
+[下载](https://www.khayer.cn/files/Internatsional.mp3)  
