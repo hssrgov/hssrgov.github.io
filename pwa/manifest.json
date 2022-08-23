@@ -3,13 +3,23 @@
   "short_name": "哈儿实验室",
   "description": "这是哈儿实验室的官方网站。",
   "icons": [{
-    "src": "pwa/icons/128.png",
+    "src": "icons/128.png",
     "sizes": "128x128",
     "type": "image/png"
-  }, {
-    "src": "pwa/icons/512.png",
+  },
+  {
+    "src": "icons/512.png",
     "sizes": "512x512",
     "type": "image/png"
+  }, 
+  {
+    "src": "icons/any.svg",
+    "sizes": "any"
+  }, 
+  {
+    "src": "icons/icon.ico",
+    "sizes": "16x16 24x24 32x32 48x48 64x64 72x72 80x80 96x96 128x128 256x256",
+    "type": "image/x-icon"
   }],
   "background_color": "#000000",
   "theme_color": "#000000",
