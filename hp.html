@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="https://khayer.cn/img/favicon.ico">
+<title>Химический Принтер - Лаборатория Хаера</title>
+</head>
+<body style="background: #000000;">
+	<div style="text-align: center; color: #FFFFFF;">
+		<h1>Химический Принтер</h1>
+        <textarea id="vkhod" placeholder="Пожалуйста, введите химическую формулу..." style="margin: 2px; width: 50%; height: 256px;"></textarea><br>
+        <br><button onClick="generirovat();">Генерировать</button><br><br>
+        <textarea id="vykhod" placeholder="Прочитайте сгенерированный текст здесь..." style="margin: 2px; width: 50%; height: 256px;"></textarea>
+        <hr>
+		<p>Лаборатория Хаера &copy; 2018-<span id="god">[ГОД]</span> Все права защищены.</p>
+    </div>
+    <script type="text/javascript">
+        var svidaniye=new Date(),otyets=0,mat=0,obschiy=0,vryemya,tekst;
+        document.getElementById("god").innerHTML=svidaniye.getFullYear();
+        const spisok_verkhniy=["⁺","⁻","⁰","¹","²","³","⁴","⁵","⁶","⁷","⁸","⁹","⁼","ⁱ","ⁿ","ⁱ","ⁿ"];
+        const spisok_nizhniy=["₍","₎","₊","₋","₀","₁","₂","₃","₄","₅","₆","₇","₈","₉","₌"];
+        const strelka_verkhniy=["|+","|-","|0","|1","|2","|3","|4","|5","|6","|7","|8","|9","|=","|I","|N","|i","|n"];
+        const strelka_nizhniy=["/(","/)","/+","/-","/0","/1","/2","/3","/4","/5","/6","/7","/8","/9","/="];
+        //⁰¹²³⁴⁵⁶⁷⁸⁹ⁿⁱ⁺⁻⁼₀₁₂₃₄₅₆₇₈₉₍₎₊₋₌
+        function generirovat()
+        {
+            var vykhod=document.getElementById("vkhod").value,dlina;
+            dlina=vykhod.length;
+            for(let i=0;i<dlina;++i)
+            {
+                for(let j=0;j<strelka_nizhniy.length;++j)
+                {
+                    vykhod=vykhod.replace(strelka_nizhniy[j],spisok_nizhniy[j]);
+                }
+                for(let j=0;j<strelka_verkhniy.length;++j)
+                {
+                    vykhod=vykhod.replace(strelka_verkhniy[j],spisok_verkhniy[j]);
+                }
+            }
+            document.getElementById("vykhod").value=vykhod;
+            return;
+        }
+    </script>
+</body>
+</html>
