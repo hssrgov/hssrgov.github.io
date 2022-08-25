@@ -10,7 +10,7 @@
 		<h1>Химический Принтер</h1>
         <textarea id="vkhod" placeholder="Пожалуйста, введите химическую формулу..." style="margin: 2px; width: 50%; height: 256px;"></textarea><br>
         <br><button onClick="generirovat();">Генерировать</button><br><br>
-        <textarea id="vykhod" placeholder="Прочитайте сгенерированный текст здесь..." style="margin: 2px; width: 50%; height: 256px;"></textarea>
+        <textarea id="vykhod" placeholder="Полученную химическую формулу смотрите здесь..." style="margin: 2px; width: 50%; height: 256px;"></textarea>
         <hr>
 		<p>Лаборатория Хаера &copy; 2018-<span id="god">[ГОД]</span> Все права защищены.</p>
     </div>
@@ -21,7 +21,7 @@
         const spisok_nizhniy=["₍","₎","₊","₋","₀","₁","₂","₃","₄","₅","₆","₇","₈","₉","₌"];
         const strelka_verkhniy=["|+","|-","|0","|1","|2","|3","|4","|5","|6","|7","|8","|9","|=","|I","|N","|i","|n"];
         const strelka_nizhniy=["/(","/)","/+","/-","/0","/1","/2","/3","/4","/5","/6","/7","/8","/9","/="];
-        //⁰¹²³⁴⁵⁶⁷⁸⁹ⁿⁱ⁺⁻⁼₀₁₂₃₄₅₆₇₈₉₍₎₊₋₌
+        //Доступные Символы: ⁰¹²³⁴⁵⁶⁷⁸⁹ⁿⁱ⁺⁻⁼₀₁₂₃₄₅₆₇₈₉₍₎₊₋₌
         function generirovat()
         {
             var vykhod=document.getElementById("vkhod").value,dlina;
