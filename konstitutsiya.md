@@ -1,10 +1,9 @@
 ---
-title:      宪法
+title:      章程
 layout:     page
-description: "哈儿苏维埃联邦社会主义共和国宪法"
+description: "哈儿实验室章程及规定"
 header-img: "img/home-bg-o.jpg"
 ---
 
-# 哈儿苏维埃联邦社会主义共和国宪法
-
-<embed src="https://www.khayer.cn/files/Konstintutsiya_HSFSR.pdf" width="100%" height="1000px">
+# 哈儿实验室章程
+由哈儿实验室苏维埃主席团领导的章程起草委员会正在进行起草工作。
