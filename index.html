@@ -3,6 +3,9 @@ layout: page
 description: "全世界无产者，联合起来！"
 ---
 
+<div style="filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+-webkit-filter: grayscale(100%);"><!--改为黑白色以哀悼-->
+
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -44,3 +47,5 @@ description: "全世界无产者，联合起来！"
     {% endif %}
 </ul>
 {% endif %}
+
+</div>
