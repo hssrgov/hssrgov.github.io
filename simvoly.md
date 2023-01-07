@@ -20,6 +20,6 @@ catalog: true
 [矢量图下载](https://www.khayer.cn/files/Haer_Lab-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载](https://www.khayer.cn/files/Haer_Lab-Emblem.png)
 <br/><br/>
   
-哈儿实验室临时颂歌：***《国际歌》***。  
+哈儿实验室颂歌：***《国际歌》***。  
 音频：<audio controls><source src="https://www.khayer.cn/files/Internatsional.mp3"></audio>  
 [下载](https://www.khayer.cn/files/Internatsional.mp3)  
