@@ -6,7 +6,7 @@ header-img: "img/home-bg.jpg"
 catalog: true
 ---
 
-***<font color="#FF0000">任何情况下使用哈儿实验室的象征符号时必须遵守：不得以任何方式侮辱、毁坏哈儿实验室的象征符号。任何时刻展示哈儿实验室的象征符号时必须按照哈儿实验室给出的标准文件为准。</font>***
+***<font color="#FF0000">《哈儿实验室章程》第二十二章 第一百八十六条 任何情况下使用哈儿实验室的象征符号时必须遵守：不得以任何方式侮辱、毁坏哈儿实验室的象征符号。任何时刻展示哈儿实验室的象征符号时必须以哈儿实验室给出的标准图案为准。对于以任何方式直接或间接地侮辱哈儿实验室象征符号者，应当根据哈儿实验室的相关法律予以严厉制裁。</font>***
 
 -----
 
@@ -15,7 +15,7 @@ catalog: true
 [矢量图下载](https://www.khayer.cn/files/Haer_Lab.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载](https://www.khayer.cn/files/Haer_Lab.png)
 <br/><br/>
   
-<img src="https://www.khayer.cn/files/Haer_Lab-Emblem.png" alt="哈儿实验室徽章" width="75%">  
+<img src="https://www.khayer.cn/files/Haer_Lab-Emblem-smaller.png" alt="哈儿实验室徽章" width="75%">  
 哈儿实验室徽章  
 [矢量图下载](https://www.khayer.cn/files/Haer_Lab-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载](https://www.khayer.cn/files/Haer_Lab-Emblem.png)
 <br/><br/>
