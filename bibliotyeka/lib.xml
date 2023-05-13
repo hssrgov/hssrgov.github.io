@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <lib>
 	<maindata>
-		<mhn>5</mhn><!--最大文件编号-->
+		<mhn>6</mhn><!--最大文件编号-->
 		<minhn>1</minhn><!--最小文件编号-->
 	</maindata>
 	<writerdata>
@@ -64,6 +64,14 @@
 			<cl id="cl_5">2</cl>
 			<filename id="filename_5">sxyjs3.pdf</filename>
 			<remarks id="remarks_5">2023年哈儿启蒙教育实验中的优秀实验读物。</remarks>
+		</book>
+		<book id="6">
+			<name id="name_6">思想与精神（第四卷）</name>
+			<date id="date_6">2023年5月13日</date>
+			<w id="w_6">2</w>
+			<cl id="cl_6">2</cl>
+			<filename id="filename_6">sxyjs4.pdf</filename>
+			<remarks id="remarks_6">2023年哈儿启蒙教育实验中的优秀实验读物。</remarks>
 		</book>
 	</bookdata>
 </lib>
