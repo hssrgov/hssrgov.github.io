@@ -11,7 +11,7 @@ catalog: true
 * [哈儿实验室危险哈儿数据库](https://khayer.cn/bdohlh/)
 * [哈儿实验室章程及规定](https://khayer.cn/konstitutsiya/)
 
-### 《思想与精神》&nbsp;&nbsp;«Разум и Дух»
+### 《思想与精神》&nbsp;&nbsp;«Мысль и Дух»
 * [《思想与精神》第一卷](https://khayer.cn/bibliotyeka/files/sxyjs1.pdf)
 * [《思想与精神》第二卷](https://khayer.cn/bibliotyeka/files/sxyjs2.pdf)
 * [《思想与精神》第三卷](https://khayer.cn/bibliotyeka/files/sxyjs3.pdf)
