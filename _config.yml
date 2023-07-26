@@ -2,18 +2,18 @@
 title: 哈儿实验室
 SEOTitle: 哈儿实验室
 header-img: img/home-bg.jpg
-email: radiumvs@foxmail.com
+# email: radiumvs@foxmail.com
 description: "哈儿实验室的官方网站。Это официальный сайт Лаборатории Хаера. Гэта афіцыйны сайт Лабараторыі Хаера. Це офіційний сайт Лабораторії Хаера."
 keyword: "哈儿, 哈儿实验室, haer, haer lab, laboratoriya haera, laboratorija haera, хаер, лаборатория хаера"
-url: "https://www.khayer.cn/"			  # your host, for absolute URL
+url: "https://khayer.cn/"			  # your host, for absolute URL
 baseurl: ""							 # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
-RSS: false
-github_username:	hssrgov
+RSS: false 
+# github_username: hssrgov
 
 
 
@@ -50,8 +50,8 @@ kramdown:
 
 # Sidebar settings
 sidebar: true						   # whether or not using Sidebar.
-sidebar-about-description: "哈儿实验室——让正常人变成哈儿，让哈儿快乐生活。"
-sidebar-avatar: https://github.com/hssrgov.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "哈儿实验室：让正常人变成哈儿，让哈儿快乐生活。"
+sidebar-avatar: https://khayer.cn/img/icon_wechat.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -76,7 +76,7 @@ page-mathjax: false
 friends: [
 	{
 		title: "哈儿实验室01分部",
-		href: "https://mrhaer.github.io"
+		href: "https://mrhaer.github.io/"
 	},
 	{
 		title: "伪证大典官网",
