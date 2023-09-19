@@ -10,16 +10,16 @@ catalog: true
 
 -----
 
-<img src="https://www.khayer.cn/files/Haer_Lab.png" alt="哈儿实验室旗帜" width="75%">  
-哈儿实验室旗帜  
-[矢量图下载](https://www.khayer.cn/files/Haer_Lab.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载](https://www.khayer.cn/files/Haer_Lab.png)
-<br/><br/>
+<img src="https://khayer.cn/files/Haer_Lab.png" alt="哈儿实验室旗帜" width="75%">  
+<div style="text-align: center;">哈儿实验室旗帜<br/>
+<a href="https://khayer.cn/files/Haer_Lab.svg" style="color: #000000;">矢量图下载</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://khayer.cn/files/Haer_Lab.png" style="color: #000000;">PNG格式图像下载</a>
+<br/><br/></div>
   
-<img src="https://www.khayer.cn/files/Haer_Lab-Emblem-smaller.png" alt="哈儿实验室徽章" width="75%">  
-哈儿实验室徽章  
-[矢量图下载](https://www.khayer.cn/files/Haer_Lab-Emblem.svg)&nbsp;&nbsp;&nbsp;&nbsp; [PNG格式图像下载](https://www.khayer.cn/files/Haer_Lab-Emblem.png)
-<br/><br/>
+<img src="https://khayer.cn/files/Haer_Lab-Emblem-smaller.png" alt="哈儿实验室徽章" width="75%">  
+<div style="text-align: center;">哈儿实验室徽章<br/>
+<a href="https://khayer.cn/files/Haer_Lab-Emblem.svg" style="color: #000000;">矢量图下载</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://khayer.cn/files/Haer_Lab-Emblem.png" style="color: #000000;">PNG格式图像下载</a>
+<br/><br/></div>
   
-哈儿实验室颂歌：***《国际歌》***。  
-音频：<audio controls><source src="https://www.khayer.cn/files/Internatsional.mp3"></audio>  
-[下载](https://www.khayer.cn/files/Internatsional.mp3)  
+<div style="text-align: center;">哈儿实验室颂歌：<strong>《国际歌》</strong><br/>
+音频：<audio controls><source src="https://khayer.cn/files/Internatsional.mp3"></audio>  
+<a href="https://khayer.cn/files/Internatsional.mp3" style="color: #000000;">下载</a></div>
