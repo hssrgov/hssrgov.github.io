@@ -21,5 +21,5 @@ catalog: true
 <br/><br/></div>
   
 <div style="text-align: center;">哈儿实验室颂歌：<strong>《国际歌》</strong><br/>
-音频：<audio controls><source src="https://khayer.cn/files/Internatsional.mp3"></audio>  
+音频：<audio controls><source src="https://khayer.cn/files/Internatsional.mp3"></audio><br>
 <a href="https://khayer.cn/files/Internatsional.mp3" style="color: #000000;">下载</a></div>
