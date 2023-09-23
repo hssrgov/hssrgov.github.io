@@ -10,12 +10,12 @@ catalog: true
 
 -----
 
-<img src="https://khayer.cn/files/Haer_Lab.png" alt="哈儿实验室旗帜">  
+<img src="https://khayer.cn/files/Haer_Lab.png" alt="哈儿实验室旗帜" width="100%">  
 <div style="text-align: center;">哈儿实验室旗帜<br/>
 <a href="https://khayer.cn/files/Haer_Lab.svg">矢量图下载</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://khayer.cn/files/Haer_Lab.png">PNG格式图像下载</a>
 <br/><br/></div>
   
-<img src="https://khayer.cn/files/Haer_Lab-Emblem-smaller.png" alt="哈儿实验室徽章">  
+<img src="https://khayer.cn/files/Haer_Lab-Emblem-smaller.png" alt="哈儿实验室徽章" width="100%">  
 <div style="text-align: center;">哈儿实验室徽章<br/>
 <a href="https://khayer.cn/files/Haer_Lab-Emblem.svg">矢量图下载</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://khayer.cn/files/Haer_Lab-Emblem.png">PNG格式图像下载</a>
 <br/><br/></div>
