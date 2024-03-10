@@ -1,7 +1,7 @@
 ---
 title:      主要负责人
 layout:     page
-description: "Биографические данные основных товарищей, возглавляющих Лабораторию Хаера"
+description: "Товарищи руководители Совета Министров Лаборатории Хаера"
 header-img: "img/home-bg-kph.png"
 catalog: true
 ---
