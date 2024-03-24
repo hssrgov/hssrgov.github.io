@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <lib>
 	<filedata>
-		<mhn>95</mhn><!--最大哈儿编号-->
+		<mhn>100</mhn><!--最大哈儿编号-->
 		<minhn>1</minhn><!--最小哈儿编号-->
 		<actualminhn>-1</actualminhn><!--实际最小哈儿编号-->
 		<rg>32</rg><!--循环替换如[br]之类的简略符号的循环次数-->
@@ -976,6 +976,56 @@
 			<dgmhx id="dgmhx_95">0</dgmhx>
 			<die id="die_95">-1</die>
 			<info id="info_95">这是一个极其自信的哈儿，认为自己的思想超越世界各国领导人。[br]其全面否定中国的社会主义建设成果，侮辱中国领导人，并认为中国一无是处。[br]其坚持反对社会主义，尽管其并不知道社会主义究竟是什么。[br]其自认为自己拥有最高的智慧，恶意辱骂试图对其进行劝慰的人类和哈儿，[br]并努力营造一种痛恨中国和中国共产党的氛围。[br]哈儿实验室认为这是不可容忍的性质恶劣的思想入侵行为，并对该名哈儿进行单独隔离教育。[br]目前，该名哈儿正在接受社会主义思想的专项教育。</info>
+		</haer>
+		<haer id="96">
+			<name id="name_96">枪支哈儿团</name>
+			<born id="born_96">2007</born>
+			<des id="des_96">不断发射子弹的哈儿团</des>
+			<dgs id="dgs_96">1</dgs>
+			<haerona id="haerona_96">Д-2530-60Ю</haerona>
+			<dgmhx id="dgmhx_96">1</dgmhx>
+			<die id="die_96">-1</die>
+			<info id="info_96">这是一个喜好发射子弹的危险哈儿团，常常在午休时突然开火。[br]其所处的ШИЯЧ分配室因此而遭到毁灭性打击，但其坚持从事这样的危险行为。[br]当我们步入其生活的分配室时，我们能闻到一股剧烈的恶臭味，[br]这是其子弹内火药燃烧后的产物的气味。[br]我们坚持阻止其上述行为，但遭到了枪炮的袭击，[br]这使得受袭的工作人员陷入昏迷并被迫住院三个月。[br]为防止其继续从事袭击活动，我们目前正在设法销毁其枪支弹药。</info>
+		</haer>
+		<haer id="97">
+			<name id="name_97">智者</name>
+			<born id="born_97">1922</born>
+			<des id="des_97">对哈儿实施精神污染的灾难性生物</des>
+			<dgs id="dgs_97">0</dgs>
+			<haerona id="haerona_97">Ж-3480-29Щ</haerona>
+			<dgmhx id="dgmhx_97">0</dgmhx>
+			<die id="die_97">-1</die>
+			<info id="info_97">这是一个喜好对哈儿实施精神污染的哈儿，导致多名哈儿遭受不可逆的智力损失。[br]此哈儿“教导”其它哈儿，并使它们开始用洗手液洗头。[br]被其教导的哈儿通常陷入生活无法自理的境地，导致哈儿实验室下辖地区内护理机构超负荷运转。[br]目前，哈儿实验室正设法教育该哈儿用洗手液洗头，以停止其此类行为。</info>
+		</haer>
+		<haer id="98">
+			<name id="name_98">海柱</name>
+			<born id="born_98">1920</born>
+			<des id="des_98">极端危险的水生哈儿</des>
+			<dgs id="dgs_98">3</dgs>
+			<haerona id="haerona_98">Ю-5282-43Ц</haerona>
+			<dgmhx id="dgmhx_98">0</dgmhx>
+			<die id="die_98">-1</die>
+			<info id="info_98">这是一个生活在深海中的哈儿，尚未被捕获。[br]据目击者称，该哈儿呈柱状，以“令人无法理解”的方式移动。[br]该哈儿攻击过路船只，并吞噬其中的人类。[br]目前，该哈儿的具体信息尚未查明。[br][lstr]不建议与该哈儿私自接触！[rstr]</info>
+		</haer>
+		<haer id="99">
+			<name id="name_99">帅哥</name>
+			<born id="born_99">2007</born>
+			<des id="des_99">世界上最英俊的哈儿</des>
+			<dgs id="dgs_99">0</dgs>
+			<haerona id="haerona_99">Л-9218-73З</haerona>
+			<dgmhx id="dgmhx_99">0</dgmhx>
+			<die id="die_99">-1</die>
+			<info id="info_99">这是一个英俊的哈儿，时常使他人消失。[br]当任何有自主意识的物体看到该哈儿时，其将感到发自心底的仰慕，[br]然后对自己的容貌感到自卑，直至自卑得当场消失。[br]其居住地附近的哈儿说：“如果该哈儿拿起镜子照向自己，就会引发宇宙的毁灭。”[br]因此，我们严厉禁止该哈儿接触任何可能充当镜子的物体。</info>
+		</haer>
+		<haer id="100">
+			<name id="name_100">“我”</name>
+			<born id="born_100">2007</born>
+			<des id="des_100">炼钢党受害者集团</des>
+			<dgs id="dgs_100">1</dgs>
+			<haerona id="haerona_100">Ж-6217-15Б</haerona>
+			<dgmhx id="dgmhx_100">1</dgmhx>
+			<die id="die_100">-1</die>
+			<info id="info_100">这是一个由四个哈儿组成的哈儿团，其成员均是[la]19[lb]炼钢党[lc]的受害者。[br]这四个哈儿经常居住在树洞中，并使用望远镜观察远处的人类。[br]其时常吞噬人类的物品，并对人类实施危险的猥亵行为。[br]当哈儿实验室工作人员询问这四名哈儿的姓名时，其均回答：“我。”[br]因此，这四名哈儿组成的哈儿团被命名为“我”。</info>
 		</haer>
 		<!--<haer id="idd">
 			<name id="name_idd">哈儿名称</name>

@@ -125,7 +125,7 @@ function run()//БДОХЛХ主页面运行函数
 }
 function runtable()//БДОХЛХ索引运行函数
 {
-	let rng="<tr><th>危险哈儿号码</th><th>危险哈儿名称</th><th><a style=\"color: #FFFFFF;\" href=\"https://www.khayer.cn/about/#hirg\" target=\"_blank\">哈儿综合能力等级</a></th></tr>\n",dgsv,dgsest,dgmht,hnlt;//rng：表格内容，初始化时只有这个表头；dgsv：ХИРГ名称（临时存储用的变量）
+	let rng="<tr><th>危险哈儿号码</th><th>危险哈儿名称</th><th><a style=\"color: #FFFFFF;\" href=\"\" target=\"_blank\">哈儿综合能力等级</a></th></tr>\n",dgsv,dgsest,dgmht,hnlt;//rng：表格内容，初始化时只有这个表头；dgsv：ХИРГ名称（临时存储用的变量）
 	if(!tproc())//浏览器版本太旧
 	{
 		document.getElementsByTagName("title")[0].innerHTML=ne_title;//页面标题
