@@ -21,6 +21,14 @@ thisyear=date.getFullYear();//加载当前年份
 if(localurl.charAt(localurl.length-1)!="/")localurl+="/";
 xmlfileurl=localurl+XMLFILEURL_ORI;//加载XML文件地址
 console.log("[Info]: [thisyear: "+thisyear+" xmlfileurl:"+xmlfileurl+"]");
+
+//重新编写危险哈儿数据库期间暂停访问
+function jump2notice()
+{
+	window.location.href="notice.html";
+	return;
+}
+
 function about()//输出版权信息
 {
   document.getElementById("about_index").innerHTML="哈儿实验室 &copy; 2018-"+thisyear+" 保留所有权利。<br>Лаборатория Хаера &copy; 2018-"+thisyear+" Все права защищены.";
@@ -28,7 +36,11 @@ function about()//输出版权信息
 }
 function tproc()//预处理
 {
-    let xmlhttp=new XMLHttpRequest();
+    //恢复访问后删去下面一行！！
+	jump2notice();//重新编写危险哈儿数据库期间暂停访问，恢复访问后删去本行！！
+	//恢复访问后删去上面一行！！
+	
+	let xmlhttp=new XMLHttpRequest();
 	if(!window.XMLHttpRequest)return false;//如果此方法不可用，则提示用户更新浏览器
 	xmlhttp.open("GET",xmlfileurl,false);
 	xmlhttp.send();
