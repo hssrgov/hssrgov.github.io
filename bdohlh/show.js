@@ -166,30 +166,3 @@ function nextbutton(ifnext)//БДОХЛХ主页面翻页按钮运行函数，若
 	else window.location.href="index.html?haer="+(Number(idd)-Number(1));//向前翻页
 	return;
 }
-function test001()//测试能否连接到hssrgov网站
-{
-	return "reply";
-}
-function test002(string)//测试能否连接到hssrgov网站并测试js是否正常运行
-{
-	return "reply: req="+string;
-}
-//function tmpshow1()//show.js 2022年初大改中帮助修改的临时函数
-//{
-//	var str="";
-//	for(var i=0;i<=mhn;++i)
-//	{
-//		str+="//"+i+"<br>";
-//		str+=hnl[i]+"<br>";
-//		str+="!出生年份"+"<br>";
-//		str+="!概要"+"<br>";
-//		str+=dgses[i]+"<br>";
-//		str+="!负责人"+"<br>";
-//		str+=dgmh[i]+"<br>";
-//		str+="!被销毁或死亡的年份"+"<br>";
-//		str+="!哈儿详细信息"+"<br>";
-//		str+="[info-end]<br><br>";
-//	}
-//	document.getElementById("show").innerHTML=str;
-//	return;
-//}
